@@ -132,5 +132,6 @@ extension SSChooseEncryptionTypeController: UITableViewDataSource, UITableViewDe
         model.isSelected = true
         tableView.reloadData()
         complete?(model)
+        navigationController?.popViewController(animated: true)
     }
 }

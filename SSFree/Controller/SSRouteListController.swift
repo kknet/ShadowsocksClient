@@ -153,4 +153,32 @@ extension SSRouteListController: UITableViewDataSource, UITableViewDelegate {
         // 保存为默认路线
         defaultStand.set(data, forKey: "DefaultRoute")
     }
+    
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        let model = routeData[indexPath.row]
+        return !(model.isSelected ?? false)
+    }
+    
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let action = UIContextualAction(style: .destructive, title: "删除") { (action, _, complete) in
+            self.routeData.remove(at: indexPath.row)
+            self.removeRoute(index: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+            complete(true)
+        }
+        let config = UISwipeActionsConfiguration(actions: [action])
+        return config
+    }
+    
+    private func removeRoute(index: Int) {
+        guard let doc = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first else {
+            return
+        }
+        let routeFilePath = "\(doc)/Routes.data"
+        guard let array = NSMutableArray(contentsOfFile: routeFilePath) else {
+            return
+        }
+        array.removeObject(at: index)
+        array.write(toFile: routeFilePath, atomically: true)
+    }
 }
