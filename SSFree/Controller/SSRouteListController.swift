@@ -129,7 +129,15 @@ extension SSRouteListController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
-        
+        let model = routeData[indexPath.row]
+        let vc = SSEditRouteController.editRoute(route: model) { (route) in
+            self.routeData.remove(at: indexPath.row)
+            self.routeData.insert(route, at: indexPath.row)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                tableView.reloadRows(at: [indexPath], with: .automatic)
+            }
+        }
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

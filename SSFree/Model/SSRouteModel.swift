@@ -9,7 +9,7 @@
 import Foundation
 
 class SSRouteModel: Codable {
-    var id: UUID
+    var id: String
     var ip_address: String
     var port: Int
     var password: String
@@ -17,7 +17,7 @@ class SSRouteModel: Codable {
     var isSelected: Bool?
     
     init(ip_address: String, port: String, password: String, encryptionType: String) {
-        self.id = UUID()
+        self.id = UUID().uuidString
         self.ip_address = ip_address
         self.port = Int(port) ?? 0
         self.password = password

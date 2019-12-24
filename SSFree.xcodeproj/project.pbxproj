@@ -76,6 +76,7 @@
 		27301876235ECCD000E00181 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275E346E235DAA4400413056 /* NetworkExtension.framework */; };
 		27301877235ECF0900E00181 /* SSVPNManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275E34A5235DAF3F00413056 /* SSVPNManager.swift */; };
 		27301878235ED38800E00181 /* NEKitRule.conf in Resources */ = {isa = PBXBuildFile; fileRef = 275E34A7235E891A00413056 /* NEKitRule.conf */; };
+		275884F023B2050200CE6B0F /* SSEditRouteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275884EF23B2050200CE6B0F /* SSEditRouteController.swift */; };
 		275D64FC235EF0BB00C21081 /* Assest.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275D64FB235EF0BB00C21081 /* Assest.xcassets */; };
 		275D64FE235EF77C00C21081 /* animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 275D64FD235EF77C00C21081 /* animation.json */; };
 		275E3448235DA97600413056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275E3447235DA97600413056 /* AppDelegate.swift */; };
@@ -225,6 +226,7 @@
 		27301869235ECC9B00E00181 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		2730186C235ECC9B00E00181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		2730186E235ECC9B00E00181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		275884EF23B2050200CE6B0F /* SSEditRouteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSEditRouteController.swift; sourceTree = "<group>"; };
 		275D64FB235EF0BB00C21081 /* Assest.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assest.xcassets; sourceTree = "<group>"; };
 		275D64FD235EF77C00C21081 /* animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation.json; sourceTree = "<group>"; };
 		275E3444235DA97600413056 /* Shadowsocks Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shadowsocks Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -419,6 +421,7 @@
 				279CDE5C23A8B7DF005C68EC /* SSRouteListController.swift */,
 				271C8A1123A8BF1D008B7EAD /* SSAddRouteController.swift */,
 				279E01B323A8C8F100C7FF3C /* SSChooseEncryptionTypeController.swift */,
+				275884EF23B2050200CE6B0F /* SSEditRouteController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -705,6 +708,7 @@
 				271C8A1223A8BF1D008B7EAD /* SSAddRouteController.swift in Sources */,
 				27A8046D23A8CF7300DE6FED /* SSRouteModel.swift in Sources */,
 				279CDE5D23A8B7DF005C68EC /* SSRouteListController.swift in Sources */,
+				275884F023B2050200CE6B0F /* SSEditRouteController.swift in Sources */,
 				275E344A235DA97600413056 /* SceneDelegate.swift in Sources */,
 				27A8047023A8D08300DE6FED /* SSEncryptionTypeCell.swift in Sources */,
 				279E01B023A8C28100C7FF3C /* CustomNavigationController.swift in Sources */,

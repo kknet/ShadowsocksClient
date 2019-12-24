@@ -9,4 +9,9 @@
 class SSEncryptionTypeModel: Decodable {
     var name: String?
     var isSelected: Bool?
+    
+    init(name: String, isSelected: Bool) {
+        self.name = name
+        self.isSelected = isSelected
+    }
 }
