@@ -1,0 +1,6 @@
+framework module TrafficPolice {
+  umbrella header "TrafficPolice-umbrella.h"
+
+  export *
+  module * { export * }
+}

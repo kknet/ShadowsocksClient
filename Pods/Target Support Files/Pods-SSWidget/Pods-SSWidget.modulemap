@@ -1,0 +1,6 @@
+framework module Pods_SSWidget {
+  umbrella header "Pods-SSWidget-umbrella.h"
+
+  export *
+  module * { export * }
+}

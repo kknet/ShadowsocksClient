@@ -1,0 +1,14 @@
+{
+  "commitish" : "3.6.0",
+  "iOS" : [
+    {
+      "name" : "CocoaLumberjackSwift",
+      "hash" : "9c928d1acd2b7684d0f714f340ef322728cdd02e0ede093eb9ed445c92f17bab",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    },
+    {
+      "name" : "CocoaLumberjack",
+      "hash" : "eae73edc5a16833da6828f8b4ac01bc9701f01baac4cbc9ff3f07ef1a18669d3"
+    }
+  ]
+}

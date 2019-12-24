@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>AES128GCM</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>AES192GCM</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>AES256GCM</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>AES128CFB</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>AES192CFB</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>AES256CFB</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>CHACHA20</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>SALSA20</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>RC4MD5</string>
+	</dict>
+</array>
+</plist>
