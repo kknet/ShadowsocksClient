@@ -7,7 +7,6 @@ target 'SSFree' do
   use_frameworks!
   
   pod 'lottie-ios'
-  pod 'Pgyer'
   
 end
 

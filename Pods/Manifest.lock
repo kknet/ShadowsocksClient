@@ -1,28 +1,24 @@
 PODS:
   - lottie-ios (3.1.2)
-  - Pgyer (2.8.9)
   - SwiftTimer (2.0)
   - TrafficPolice (1.1):
     - SwiftTimer (~> 2.0)
 
 DEPENDENCIES:
   - lottie-ios
-  - Pgyer
   - TrafficPolice
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - lottie-ios
-    - Pgyer
     - SwiftTimer
     - TrafficPolice
 
 SPEC CHECKSUMS:
   lottie-ios: 49cd85b1f24f61a7708ad7ec76a523ab2d0e3100
-  Pgyer: 830654e51e23f754cce5d8b3ea9ba72be68452eb
   SwiftTimer: 4d25ff045d81c3132e1161a3ba2353d06ff63c30
   TrafficPolice: 6f3acdad83776e8bb8171eb2b331232eb1b6419e
 
-PODFILE CHECKSUM: bf55fc85078b20e61928c42dfd24630d386de482
+PODFILE CHECKSUM: 21ea0a971c8bb54907806dfdbaff21c9bcc4d7bb
 
 COCOAPODS: 1.8.4
