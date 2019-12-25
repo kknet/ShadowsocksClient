@@ -669,6 +669,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = SSWidget/SSWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 898932UN9T;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -682,6 +683,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ssfree.SSWidget;
 				PRODUCT_NAME = Ladder;
 				SKIP_INSTALL = YES;
@@ -695,6 +697,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = SSWidget/SSWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 898932UN9T;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -708,6 +711,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ssfree.SSWidget;
 				PRODUCT_NAME = Ladder;
 				SKIP_INSTALL = YES;
