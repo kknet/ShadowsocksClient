@@ -7,3 +7,8 @@
 |---|:---:|
 | Swift version | 5.1 |
 | iOS version | 13.0+ |
+
+## Previews
+<img src="https://github.com/NingLi-iOSer/ShadowsocksClient/blob/master/previews/Home.png" width="300">
+<img src="https://github.com/NingLi-iOSer/ShadowsocksClient/blob/master/previews/AddRoute.png" width="300">
+<img src="https://github.com/NingLi-iOSer/ShadowsocksClient/blob/master/previews/RouteList.png" width="300">
