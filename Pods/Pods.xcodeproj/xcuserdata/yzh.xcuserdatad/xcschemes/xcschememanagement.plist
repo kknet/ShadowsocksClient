@@ -4,40 +4,47 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-PacketTunnel.xcscheme</key>
+		<key>Pgyer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>Pods-SSFree.xcscheme</key>
+		<key>Pods-PacketTunnel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>Pods-SSWidget.xcscheme</key>
+		<key>Pods-SSFree.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
-		<key>SwiftTimer.xcscheme</key>
+		<key>Pods-SSWidget.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
-		<key>TrafficPolice.xcscheme</key>
+		<key>SwiftTimer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>7</integer>
+		</dict>
+		<key>TrafficPolice.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 		<key>lottie-ios.xcscheme</key>
 		<dict>

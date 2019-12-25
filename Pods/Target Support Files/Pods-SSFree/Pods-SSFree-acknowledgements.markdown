@@ -1,6 +1,11 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## Pgyer
+
+Copyright 2017 pgyer.com. All rights reserved.
+
+
 ## lottie-ios
 
                                  Apache License

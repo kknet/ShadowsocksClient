@@ -1,10 +1,10 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/SwiftTimer" "${PODS_CONFIGURATION_BUILD_DIR}/TrafficPolice" "${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/SwiftTimer" "${PODS_CONFIGURATION_BUILD_DIR}/TrafficPolice" "${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios" "${PODS_ROOT}/Pgyer/PgySDK/sdk"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/SwiftTimer/SwiftTimer.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TrafficPolice/TrafficPolice.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios/Lottie.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios/Lottie.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/SwiftTimer/SwiftTimer.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/TrafficPolice/TrafficPolice.framework/Headers" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/SwiftTimer" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/TrafficPolice"
-OTHER_LDFLAGS = $(inherited) -framework "CoreGraphics" -framework "Lottie" -framework "QuartzCore" -framework "SwiftTimer" -framework "TrafficPolice" -framework "UIKit"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios/Lottie.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/SwiftTimer/SwiftTimer.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/TrafficPolice/TrafficPolice.framework/Headers" -iframework "${PODS_ROOT}/Pgyer/PgySDK/sdk" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/SwiftTimer" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/TrafficPolice"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "AudioToolbox" -framework "AvFoundation" -framework "CoreGraphics" -framework "CoreMotion" -framework "CoreTelephony" -framework "Lottie" -framework "OpenGLES" -framework "PgySDK" -framework "QuartzCore" -framework "SwiftTimer" -framework "SystemConfiguration" -framework "TrafficPolice" -framework "UIKit"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
