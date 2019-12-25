@@ -134,6 +134,7 @@ class SSAddRouteController: UIViewController {
     
     /// 选择加密方式
     @IBAction private func chooseEncryptionType() {
+        view.endEditing(true)
         let vc = SSChooseEncryptionTypeController.chooseEncryptionType(currentType: encryptionType) { type in
             self.encryptionType = type
             self.encryptionTypeLabel.text = type.name

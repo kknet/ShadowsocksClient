@@ -7,40 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2711F78D23A8993100569DB9 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78123A8993000569DB9 /* CocoaAsyncSocket.framework */; };
-		2711F79123A8993100569DB9 /* Resolver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78323A8993000569DB9 /* Resolver.framework */; };
-		2711F79323A8993100569DB9 /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78423A8993000569DB9 /* Sodium.framework */; };
-		2711F79723A8993100569DB9 /* tun2socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78623A8993000569DB9 /* tun2socks.framework */; };
-		2711F79923A8993100569DB9 /* Yaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78723A8993000569DB9 /* Yaml.framework */; };
-		2711F79B23A8993100569DB9 /* lwip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78823A8993000569DB9 /* lwip.framework */; };
-		2711F79D23A8993100569DB9 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78923A8993000569DB9 /* CocoaLumberjack.framework */; };
-		2711F79F23A8993100569DB9 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78A23A8993000569DB9 /* CocoaLumberjackSwift.framework */; };
-		2711F7A123A8993100569DB9 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78B23A8993000569DB9 /* CommonCrypto.framework */; };
-		2711F7A323A8993100569DB9 /* MMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78C23A8993100569DB9 /* MMDB.framework */; };
-		2711F7A523A8995D00569DB9 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78123A8993000569DB9 /* CocoaAsyncSocket.framework */; };
-		2711F7A723A8995D00569DB9 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78923A8993000569DB9 /* CocoaLumberjack.framework */; };
-		2711F7A923A8995D00569DB9 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78A23A8993000569DB9 /* CocoaLumberjackSwift.framework */; };
-		2711F7AB23A8995D00569DB9 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78B23A8993000569DB9 /* CommonCrypto.framework */; };
-		2711F7AF23A8995D00569DB9 /* lwip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78823A8993000569DB9 /* lwip.framework */; };
-		2711F7B123A8995D00569DB9 /* MMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78C23A8993100569DB9 /* MMDB.framework */; };
-		2711F7B523A8995D00569DB9 /* Resolver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78323A8993000569DB9 /* Resolver.framework */; };
-		2711F7B723A8995D00569DB9 /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78423A8993000569DB9 /* Sodium.framework */; };
-		2711F7B923A8995D00569DB9 /* tun2socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78623A8993000569DB9 /* tun2socks.framework */; };
-		2711F7BB23A8995D00569DB9 /* Yaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78723A8993000569DB9 /* Yaml.framework */; };
-		2711F7BD23A8997A00569DB9 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78123A8993000569DB9 /* CocoaAsyncSocket.framework */; };
-		2711F7BF23A8997A00569DB9 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78923A8993000569DB9 /* CocoaLumberjack.framework */; };
-		2711F7C123A8997A00569DB9 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78A23A8993000569DB9 /* CocoaLumberjackSwift.framework */; };
-		2711F7C323A8997A00569DB9 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78B23A8993000569DB9 /* CommonCrypto.framework */; };
-		2711F7C723A8997A00569DB9 /* lwip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78823A8993000569DB9 /* lwip.framework */; };
-		2711F7C923A8997A00569DB9 /* MMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78C23A8993100569DB9 /* MMDB.framework */; };
-		2711F7CD23A8997A00569DB9 /* Resolver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78323A8993000569DB9 /* Resolver.framework */; };
-		2711F7CF23A8997A00569DB9 /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78423A8993000569DB9 /* Sodium.framework */; };
-		2711F7D123A8997A00569DB9 /* tun2socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78623A8993000569DB9 /* tun2socks.framework */; };
-		2711F7D323A8997A00569DB9 /* Yaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78723A8993000569DB9 /* Yaml.framework */; };
 		271C8A1223A8BF1D008B7EAD /* SSAddRouteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271C8A1123A8BF1D008B7EAD /* SSAddRouteController.swift */; };
 		2730186A235ECC9B00E00181 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27301869235ECC9B00E00181 /* TodayViewController.swift */; };
 		2730186D235ECC9B00E00181 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2730186B235ECC9B00E00181 /* MainInterface.storyboard */; };
-		27301871235ECC9B00E00181 /* SSFree.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 27301865235ECC9B00E00181 /* SSFree.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		27301871235ECC9B00E00181 /* Ladder.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 27301865235ECC9B00E00181 /* Ladder.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		27301877235ECF0900E00181 /* SSVPNManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275E34A5235DAF3F00413056 /* SSVPNManager.swift */; };
 		27301878235ED38800E00181 /* NEKitRule.conf in Resources */ = {isa = PBXBuildFile; fileRef = 275E34A7235E891A00413056 /* NEKitRule.conf */; };
 		275884F023B2050200CE6B0F /* SSEditRouteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275884EF23B2050200CE6B0F /* SSEditRouteController.swift */; };
@@ -56,9 +26,11 @@
 		275E3467235DA9EB00413056 /* PacketTunnel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 275E345F235DA9EB00413056 /* PacketTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		275E34A6235DAF3F00413056 /* SSVPNManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275E34A5235DAF3F00413056 /* SSVPNManager.swift */; };
 		275E34A8235E891A00413056 /* NEKitRule.conf in Resources */ = {isa = PBXBuildFile; fileRef = 275E34A7235E891A00413056 /* NEKitRule.conf */; };
-		2776741323B1FC68003898AC /* NEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78523A8993000569DB9 /* NEKit.framework */; };
-		2776741523B1FC79003898AC /* NEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78523A8993000569DB9 /* NEKit.framework */; };
-		2776741723B1FC88003898AC /* NEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78523A8993000569DB9 /* NEKit.framework */; };
+		2772DA0423B2EC3A00F6FF8B /* Pods_SSFree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FFD026BF0539AA5B259D3E /* Pods_SSFree.framework */; };
+		2772DA3B23B2F0F700F6FF8B /* Pods_PacketTunnel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998979F06FB0135B2129CBDA /* Pods_PacketTunnel.framework */; };
+		2772DA5423B2F10E00F6FF8B /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275E346E235DAA4400413056 /* NetworkExtension.framework */; };
+		2772DA5623B2F11000F6FF8B /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27301866235ECC9B00E00181 /* NotificationCenter.framework */; };
+		2772DA5823B2F11100F6FF8B /* Pods_SSWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322298D1D8E8D8466F6BE840 /* Pods_SSWidget.framework */; };
 		2776741923B2005B003898AC /* SSRouteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A8046C23A8CF7300DE6FED /* SSRouteModel.swift */; };
 		2788D18023A9B0A700AF2091 /* SSRouteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788D17E23A9B0A700AF2091 /* SSRouteCell.swift */; };
 		2788D18123A9B0A700AF2091 /* SSRouteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2788D17F23A9B0A700AF2091 /* SSRouteCell.xib */; };
@@ -67,16 +39,77 @@
 		279E01B223A8C88700C7FF3C /* EncryptionType.plist in Resources */ = {isa = PBXBuildFile; fileRef = 279E01B123A8C88700C7FF3C /* EncryptionType.plist */; };
 		279E01B423A8C8F100C7FF3C /* SSChooseEncryptionTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279E01B323A8C8F100C7FF3C /* SSChooseEncryptionTypeController.swift */; };
 		279E01B723A8C97E00C7FF3C /* SSEncryptionTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279E01B623A8C97E00C7FF3C /* SSEncryptionTypeModel.swift */; };
+		27A5127C23B2F9D400C028F5 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275E346E235DAA4400413056 /* NetworkExtension.framework */; };
+		27A5127E23B2FDCC00C028F5 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78123A8993000569DB9 /* CocoaAsyncSocket.framework */; };
+		27A5127F23B2FDCC00C028F5 /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78123A8993000569DB9 /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A5128023B2FDCC00C028F5 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78923A8993000569DB9 /* CocoaLumberjack.framework */; };
+		27A5128123B2FDCC00C028F5 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78923A8993000569DB9 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A5128223B2FDCD00C028F5 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78A23A8993000569DB9 /* CocoaLumberjackSwift.framework */; };
+		27A5128323B2FDCD00C028F5 /* CocoaLumberjackSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78A23A8993000569DB9 /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A5128423B2FDCD00C028F5 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78B23A8993000569DB9 /* CommonCrypto.framework */; };
+		27A5128523B2FDCD00C028F5 /* CommonCrypto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78B23A8993000569DB9 /* CommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A5128623B2FDCD00C028F5 /* lwip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78823A8993000569DB9 /* lwip.framework */; };
+		27A5128723B2FDCD00C028F5 /* lwip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78823A8993000569DB9 /* lwip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A5128823B2FDCD00C028F5 /* MMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78C23A8993100569DB9 /* MMDB.framework */; };
+		27A5128923B2FDCD00C028F5 /* MMDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78C23A8993100569DB9 /* MMDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A5128A23B2FDCD00C028F5 /* NEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78523A8993000569DB9 /* NEKit.framework */; };
+		27A5128B23B2FDCD00C028F5 /* NEKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78523A8993000569DB9 /* NEKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A5128C23B2FDCD00C028F5 /* Resolver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78323A8993000569DB9 /* Resolver.framework */; };
+		27A5128D23B2FDCD00C028F5 /* Resolver.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78323A8993000569DB9 /* Resolver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A5128E23B2FDCD00C028F5 /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78423A8993000569DB9 /* Sodium.framework */; };
+		27A5128F23B2FDCD00C028F5 /* Sodium.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78423A8993000569DB9 /* Sodium.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A5129023B2FDCD00C028F5 /* tun2socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78623A8993000569DB9 /* tun2socks.framework */; };
+		27A5129123B2FDCD00C028F5 /* tun2socks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78623A8993000569DB9 /* tun2socks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A5129223B2FDCD00C028F5 /* Yaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78723A8993000569DB9 /* Yaml.framework */; };
+		27A5129323B2FDCD00C028F5 /* Yaml.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78723A8993000569DB9 /* Yaml.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A5129523B2FDD500C028F5 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78123A8993000569DB9 /* CocoaAsyncSocket.framework */; };
+		27A5129623B2FDD500C028F5 /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78123A8993000569DB9 /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A5129723B2FDD500C028F5 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78923A8993000569DB9 /* CocoaLumberjack.framework */; };
+		27A5129823B2FDD500C028F5 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78923A8993000569DB9 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A5129923B2FDD500C028F5 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78A23A8993000569DB9 /* CocoaLumberjackSwift.framework */; };
+		27A5129A23B2FDD500C028F5 /* CocoaLumberjackSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78A23A8993000569DB9 /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A5129B23B2FDD500C028F5 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78B23A8993000569DB9 /* CommonCrypto.framework */; };
+		27A5129C23B2FDD500C028F5 /* CommonCrypto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78B23A8993000569DB9 /* CommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A5129D23B2FDD500C028F5 /* lwip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78823A8993000569DB9 /* lwip.framework */; };
+		27A5129E23B2FDD500C028F5 /* lwip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78823A8993000569DB9 /* lwip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A5129F23B2FDD600C028F5 /* MMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78C23A8993100569DB9 /* MMDB.framework */; };
+		27A512A023B2FDD600C028F5 /* MMDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78C23A8993100569DB9 /* MMDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A512A123B2FDD600C028F5 /* NEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78523A8993000569DB9 /* NEKit.framework */; };
+		27A512A223B2FDD600C028F5 /* NEKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78523A8993000569DB9 /* NEKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A512A323B2FDD600C028F5 /* Resolver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78323A8993000569DB9 /* Resolver.framework */; };
+		27A512A423B2FDD600C028F5 /* Resolver.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78323A8993000569DB9 /* Resolver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A512A523B2FDD600C028F5 /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78423A8993000569DB9 /* Sodium.framework */; };
+		27A512A623B2FDD600C028F5 /* Sodium.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78423A8993000569DB9 /* Sodium.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A512A723B2FDD600C028F5 /* tun2socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78623A8993000569DB9 /* tun2socks.framework */; };
+		27A512A823B2FDD600C028F5 /* tun2socks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78623A8993000569DB9 /* tun2socks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A512A923B2FDD600C028F5 /* Yaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78723A8993000569DB9 /* Yaml.framework */; };
+		27A512AA23B2FDD600C028F5 /* Yaml.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78723A8993000569DB9 /* Yaml.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A512AC23B2FDE200C028F5 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78123A8993000569DB9 /* CocoaAsyncSocket.framework */; };
+		27A512AD23B2FDE200C028F5 /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78123A8993000569DB9 /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A512AE23B2FDE200C028F5 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78923A8993000569DB9 /* CocoaLumberjack.framework */; };
+		27A512AF23B2FDE200C028F5 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78923A8993000569DB9 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A512B023B2FDE300C028F5 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78A23A8993000569DB9 /* CocoaLumberjackSwift.framework */; };
+		27A512B123B2FDE300C028F5 /* CocoaLumberjackSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78A23A8993000569DB9 /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A512B223B2FDE300C028F5 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78B23A8993000569DB9 /* CommonCrypto.framework */; };
+		27A512B323B2FDE300C028F5 /* CommonCrypto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78B23A8993000569DB9 /* CommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A512B423B2FDE300C028F5 /* lwip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78823A8993000569DB9 /* lwip.framework */; };
+		27A512B523B2FDE300C028F5 /* lwip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78823A8993000569DB9 /* lwip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A512B623B2FDE300C028F5 /* MMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78C23A8993100569DB9 /* MMDB.framework */; };
+		27A512B723B2FDE300C028F5 /* MMDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78C23A8993100569DB9 /* MMDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A512B823B2FDE300C028F5 /* NEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78523A8993000569DB9 /* NEKit.framework */; };
+		27A512B923B2FDE300C028F5 /* NEKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78523A8993000569DB9 /* NEKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A512BA23B2FDE300C028F5 /* Resolver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78323A8993000569DB9 /* Resolver.framework */; };
+		27A512BB23B2FDE300C028F5 /* Resolver.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78323A8993000569DB9 /* Resolver.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A512BC23B2FDE300C028F5 /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78423A8993000569DB9 /* Sodium.framework */; };
+		27A512BD23B2FDE300C028F5 /* Sodium.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78423A8993000569DB9 /* Sodium.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A512BE23B2FDE300C028F5 /* tun2socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78623A8993000569DB9 /* tun2socks.framework */; };
+		27A512BF23B2FDE300C028F5 /* tun2socks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78623A8993000569DB9 /* tun2socks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		27A512C023B2FDE300C028F5 /* Yaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78723A8993000569DB9 /* Yaml.framework */; };
+		27A512C123B2FDE300C028F5 /* Yaml.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2711F78723A8993000569DB9 /* Yaml.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		27A8046D23A8CF7300DE6FED /* SSRouteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A8046C23A8CF7300DE6FED /* SSRouteModel.swift */; };
 		27A8047023A8D08300DE6FED /* SSEncryptionTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A8046E23A8D08300DE6FED /* SSEncryptionTypeCell.swift */; };
 		27A8047123A8D08300DE6FED /* SSEncryptionTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27A8046F23A8D08300DE6FED /* SSEncryptionTypeCell.xib */; };
-		27F91D9423B2124A00483E31 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275E346E235DAA4400413056 /* NetworkExtension.framework */; };
-		27F91D9823B2125900483E31 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275E346E235DAA4400413056 /* NetworkExtension.framework */; };
-		27F91D9A23B2125B00483E31 /* Pods_PacketTunnel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998979F06FB0135B2129CBDA /* Pods_PacketTunnel.framework */; };
-		27F91D9C23B2126000483E31 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275E346E235DAA4400413056 /* NetworkExtension.framework */; };
-		27F91D9E23B2126100483E31 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27301866235ECC9B00E00181 /* NotificationCenter.framework */; };
-		27F91DA023B2126300483E31 /* Pods_SSWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322298D1D8E8D8466F6BE840 /* Pods_SSWidget.framework */; };
-		27F91DA223B2E17F00483E31 /* Pods_SSFree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FFD026BF0539AA5B259D3E /* Pods_SSFree.framework */; };
+		27D4AA6323B2F1C1005345F9 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275E346E235DAA4400413056 /* NetworkExtension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,10 +136,73 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				27301871235ECC9B00E00181 /* SSFree.appex in Embed App Extensions */,
+				27301871235ECC9B00E00181 /* Ladder.appex in Embed App Extensions */,
 				275E3467235DA9EB00413056 /* PacketTunnel.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A5129423B2FDCD00C028F5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27A5128D23B2FDCD00C028F5 /* Resolver.framework in Embed Frameworks */,
+				27A5128523B2FDCD00C028F5 /* CommonCrypto.framework in Embed Frameworks */,
+				27A5128123B2FDCC00C028F5 /* CocoaLumberjack.framework in Embed Frameworks */,
+				27A5127F23B2FDCC00C028F5 /* CocoaAsyncSocket.framework in Embed Frameworks */,
+				27A5128F23B2FDCD00C028F5 /* Sodium.framework in Embed Frameworks */,
+				27A5128723B2FDCD00C028F5 /* lwip.framework in Embed Frameworks */,
+				27A5128923B2FDCD00C028F5 /* MMDB.framework in Embed Frameworks */,
+				27A5129323B2FDCD00C028F5 /* Yaml.framework in Embed Frameworks */,
+				27A5129123B2FDCD00C028F5 /* tun2socks.framework in Embed Frameworks */,
+				27A5128B23B2FDCD00C028F5 /* NEKit.framework in Embed Frameworks */,
+				27A5128323B2FDCD00C028F5 /* CocoaLumberjackSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A512AB23B2FDD600C028F5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27A512A423B2FDD600C028F5 /* Resolver.framework in Embed Frameworks */,
+				27A5129C23B2FDD500C028F5 /* CommonCrypto.framework in Embed Frameworks */,
+				27A5129823B2FDD500C028F5 /* CocoaLumberjack.framework in Embed Frameworks */,
+				27A5129623B2FDD500C028F5 /* CocoaAsyncSocket.framework in Embed Frameworks */,
+				27A512A623B2FDD600C028F5 /* Sodium.framework in Embed Frameworks */,
+				27A5129E23B2FDD500C028F5 /* lwip.framework in Embed Frameworks */,
+				27A512A023B2FDD600C028F5 /* MMDB.framework in Embed Frameworks */,
+				27A512AA23B2FDD600C028F5 /* Yaml.framework in Embed Frameworks */,
+				27A512A823B2FDD600C028F5 /* tun2socks.framework in Embed Frameworks */,
+				27A512A223B2FDD600C028F5 /* NEKit.framework in Embed Frameworks */,
+				27A5129A23B2FDD500C028F5 /* CocoaLumberjackSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A512C223B2FDE300C028F5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27A512BB23B2FDE300C028F5 /* Resolver.framework in Embed Frameworks */,
+				27A512B323B2FDE300C028F5 /* CommonCrypto.framework in Embed Frameworks */,
+				27A512AF23B2FDE200C028F5 /* CocoaLumberjack.framework in Embed Frameworks */,
+				27A512AD23B2FDE200C028F5 /* CocoaAsyncSocket.framework in Embed Frameworks */,
+				27A512BD23B2FDE300C028F5 /* Sodium.framework in Embed Frameworks */,
+				27A512B523B2FDE300C028F5 /* lwip.framework in Embed Frameworks */,
+				27A512B723B2FDE300C028F5 /* MMDB.framework in Embed Frameworks */,
+				27A512C123B2FDE300C028F5 /* Yaml.framework in Embed Frameworks */,
+				27A512BF23B2FDE300C028F5 /* tun2socks.framework in Embed Frameworks */,
+				27A512B923B2FDE300C028F5 /* NEKit.framework in Embed Frameworks */,
+				27A512B123B2FDE300C028F5 /* CocoaLumberjackSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -125,7 +221,7 @@
 		2711F78B23A8993000569DB9 /* CommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonCrypto.framework; path = Carthage/Build/iOS/CommonCrypto.framework; sourceTree = "<group>"; };
 		2711F78C23A8993100569DB9 /* MMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MMDB.framework; path = Carthage/Build/iOS/MMDB.framework; sourceTree = "<group>"; };
 		271C8A1123A8BF1D008B7EAD /* SSAddRouteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSAddRouteController.swift; sourceTree = "<group>"; };
-		27301865235ECC9B00E00181 /* SSFree.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SSFree.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		27301865235ECC9B00E00181 /* Ladder.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Ladder.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		27301866235ECC9B00E00181 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		27301869235ECC9B00E00181 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		2730186C235ECC9B00E00181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -133,20 +229,22 @@
 		275884EF23B2050200CE6B0F /* SSEditRouteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSEditRouteController.swift; sourceTree = "<group>"; };
 		275D64FB235EF0BB00C21081 /* Assest.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assest.xcassets; sourceTree = "<group>"; };
 		275D64FD235EF77C00C21081 /* animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation.json; sourceTree = "<group>"; };
-		275E3444235DA97600413056 /* Shadowsocks Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shadowsocks Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		275E3444235DA97600413056 /* SSFree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSFree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		275E3447235DA97600413056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		275E3449235DA97600413056 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		275E344B235DA97600413056 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		275E344E235DA97600413056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		275E3450235DA97900413056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		275E3453235DA97900413056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		275E3455235DA97900413056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		275E345F235DA9EB00413056 /* PacketTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PacketTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		275E3461235DA9EB00413056 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
 		275E3463235DA9EB00413056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		275E346E235DAA4400413056 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		275E34A5235DAF3F00413056 /* SSVPNManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSVPNManager.swift; sourceTree = "<group>"; };
 		275E34A7235E891A00413056 /* NEKitRule.conf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NEKitRule.conf; sourceTree = "<group>"; };
+		2772440723B2E81F00C53A51 /* PgyUpdate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PgyUpdate.framework; path = ../../Downloads/PgySDK/sdk/PgyUpdate.framework; sourceTree = "<group>"; };
+		2772440823B2E81F00C53A51 /* PgySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PgySDK.framework; path = ../../Downloads/PgySDK/sdk/PgySDK.framework; sourceTree = "<group>"; };
+		2772441223B2E8A000C53A51 /* SSFree-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSFree-Bridging-Header.h"; sourceTree = "<group>"; };
 		2788D17E23A9B0A700AF2091 /* SSRouteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSRouteCell.swift; sourceTree = "<group>"; };
 		2788D17F23A9B0A700AF2091 /* SSRouteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SSRouteCell.xib; sourceTree = "<group>"; };
 		279CDE5C23A8B7DF005C68EC /* SSRouteListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSRouteListController.swift; sourceTree = "<group>"; };
@@ -154,6 +252,7 @@
 		279E01B123A8C88700C7FF3C /* EncryptionType.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = EncryptionType.plist; sourceTree = "<group>"; };
 		279E01B323A8C8F100C7FF3C /* SSChooseEncryptionTypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSChooseEncryptionTypeController.swift; sourceTree = "<group>"; };
 		279E01B623A8C97E00C7FF3C /* SSEncryptionTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSEncryptionTypeModel.swift; sourceTree = "<group>"; };
+		27A5127923B2F41000C028F5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27A8046C23A8CF7300DE6FED /* SSRouteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSRouteModel.swift; sourceTree = "<group>"; };
 		27A8046E23A8D08300DE6FED /* SSEncryptionTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSEncryptionTypeCell.swift; sourceTree = "<group>"; };
 		27A8046F23A8D08300DE6FED /* SSEncryptionTypeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SSEncryptionTypeCell.xib; sourceTree = "<group>"; };
@@ -172,20 +271,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27F91DA023B2126300483E31 /* Pods_SSWidget.framework in Frameworks */,
-				27F91D9E23B2126100483E31 /* NotificationCenter.framework in Frameworks */,
-				2711F7C923A8997A00569DB9 /* MMDB.framework in Frameworks */,
-				2711F7D123A8997A00569DB9 /* tun2socks.framework in Frameworks */,
-				2711F7C723A8997A00569DB9 /* lwip.framework in Frameworks */,
-				2711F7D323A8997A00569DB9 /* Yaml.framework in Frameworks */,
-				2711F7C123A8997A00569DB9 /* CocoaLumberjackSwift.framework in Frameworks */,
-				2711F7BF23A8997A00569DB9 /* CocoaLumberjack.framework in Frameworks */,
-				2711F7CF23A8997A00569DB9 /* Sodium.framework in Frameworks */,
-				2711F7C323A8997A00569DB9 /* CommonCrypto.framework in Frameworks */,
-				2711F7CD23A8997A00569DB9 /* Resolver.framework in Frameworks */,
-				2711F7BD23A8997A00569DB9 /* CocoaAsyncSocket.framework in Frameworks */,
-				2776741723B1FC88003898AC /* NEKit.framework in Frameworks */,
-				27F91D9C23B2126000483E31 /* NetworkExtension.framework in Frameworks */,
+				27A5127E23B2FDCC00C028F5 /* CocoaAsyncSocket.framework in Frameworks */,
+				27A5129223B2FDCD00C028F5 /* Yaml.framework in Frameworks */,
+				27A5129023B2FDCD00C028F5 /* tun2socks.framework in Frameworks */,
+				27A5128623B2FDCD00C028F5 /* lwip.framework in Frameworks */,
+				27A5128E23B2FDCD00C028F5 /* Sodium.framework in Frameworks */,
+				27A5128C23B2FDCD00C028F5 /* Resolver.framework in Frameworks */,
+				2772DA5823B2F11100F6FF8B /* Pods_SSWidget.framework in Frameworks */,
+				27A5128423B2FDCD00C028F5 /* CommonCrypto.framework in Frameworks */,
+				27A5128823B2FDCD00C028F5 /* MMDB.framework in Frameworks */,
+				27A5128223B2FDCD00C028F5 /* CocoaLumberjackSwift.framework in Frameworks */,
+				2772DA5623B2F11000F6FF8B /* NotificationCenter.framework in Frameworks */,
+				27A5128023B2FDCC00C028F5 /* CocoaLumberjack.framework in Frameworks */,
+				27A5128A23B2FDCD00C028F5 /* NEKit.framework in Frameworks */,
+				2772DA5423B2F10E00F6FF8B /* NetworkExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,19 +292,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27F91DA223B2E17F00483E31 /* Pods_SSFree.framework in Frameworks */,
-				2711F78D23A8993100569DB9 /* CocoaAsyncSocket.framework in Frameworks */,
-				27F91D9423B2124A00483E31 /* NetworkExtension.framework in Frameworks */,
-				2711F79323A8993100569DB9 /* Sodium.framework in Frameworks */,
-				2711F79923A8993100569DB9 /* Yaml.framework in Frameworks */,
-				2711F79723A8993100569DB9 /* tun2socks.framework in Frameworks */,
-				2711F79D23A8993100569DB9 /* CocoaLumberjack.framework in Frameworks */,
-				2711F7A323A8993100569DB9 /* MMDB.framework in Frameworks */,
-				2776741323B1FC68003898AC /* NEKit.framework in Frameworks */,
-				2711F79123A8993100569DB9 /* Resolver.framework in Frameworks */,
-				2711F79F23A8993100569DB9 /* CocoaLumberjackSwift.framework in Frameworks */,
-				2711F7A123A8993100569DB9 /* CommonCrypto.framework in Frameworks */,
-				2711F79B23A8993100569DB9 /* lwip.framework in Frameworks */,
+				2772DA0423B2EC3A00F6FF8B /* Pods_SSFree.framework in Frameworks */,
+				27A512C023B2FDE300C028F5 /* Yaml.framework in Frameworks */,
+				27A512AE23B2FDE200C028F5 /* CocoaLumberjack.framework in Frameworks */,
+				27A5127C23B2F9D400C028F5 /* NetworkExtension.framework in Frameworks */,
+				27A512B623B2FDE300C028F5 /* MMDB.framework in Frameworks */,
+				27A512BA23B2FDE300C028F5 /* Resolver.framework in Frameworks */,
+				27A512B823B2FDE300C028F5 /* NEKit.framework in Frameworks */,
+				27A512BC23B2FDE300C028F5 /* Sodium.framework in Frameworks */,
+				27A512B023B2FDE300C028F5 /* CocoaLumberjackSwift.framework in Frameworks */,
+				27A512B223B2FDE300C028F5 /* CommonCrypto.framework in Frameworks */,
+				27A512B423B2FDE300C028F5 /* lwip.framework in Frameworks */,
+				27A512BE23B2FDE300C028F5 /* tun2socks.framework in Frameworks */,
+				27A512AC23B2FDE200C028F5 /* CocoaAsyncSocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,19 +312,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2711F7A523A8995D00569DB9 /* CocoaAsyncSocket.framework in Frameworks */,
-				27F91D9823B2125900483E31 /* NetworkExtension.framework in Frameworks */,
-				2711F7BB23A8995D00569DB9 /* Yaml.framework in Frameworks */,
-				2711F7B723A8995D00569DB9 /* Sodium.framework in Frameworks */,
-				2711F7A723A8995D00569DB9 /* CocoaLumberjack.framework in Frameworks */,
-				27F91D9A23B2125B00483E31 /* Pods_PacketTunnel.framework in Frameworks */,
-				2776741523B1FC79003898AC /* NEKit.framework in Frameworks */,
-				2711F7AB23A8995D00569DB9 /* CommonCrypto.framework in Frameworks */,
-				2711F7AF23A8995D00569DB9 /* lwip.framework in Frameworks */,
-				2711F7B123A8995D00569DB9 /* MMDB.framework in Frameworks */,
-				2711F7A923A8995D00569DB9 /* CocoaLumberjackSwift.framework in Frameworks */,
-				2711F7B923A8995D00569DB9 /* tun2socks.framework in Frameworks */,
-				2711F7B523A8995D00569DB9 /* Resolver.framework in Frameworks */,
+				27D4AA6323B2F1C1005345F9 /* NetworkExtension.framework in Frameworks */,
+				27A512A923B2FDD600C028F5 /* Yaml.framework in Frameworks */,
+				27A5129723B2FDD500C028F5 /* CocoaLumberjack.framework in Frameworks */,
+				27A5129F23B2FDD600C028F5 /* MMDB.framework in Frameworks */,
+				2772DA3B23B2F0F700F6FF8B /* Pods_PacketTunnel.framework in Frameworks */,
+				27A512A323B2FDD600C028F5 /* Resolver.framework in Frameworks */,
+				27A512A523B2FDD600C028F5 /* Sodium.framework in Frameworks */,
+				27A512A123B2FDD600C028F5 /* NEKit.framework in Frameworks */,
+				27A5129923B2FDD500C028F5 /* CocoaLumberjackSwift.framework in Frameworks */,
+				27A5129B23B2FDD500C028F5 /* CommonCrypto.framework in Frameworks */,
+				27A5129523B2FDD500C028F5 /* CocoaAsyncSocket.framework in Frameworks */,
+				27A512A723B2FDD600C028F5 /* tun2socks.framework in Frameworks */,
+				27A5129D23B2FDD500C028F5 /* lwip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +357,9 @@
 		275E3445235DA97600413056 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				275E3444235DA97600413056 /* Shadowsocks Client.app */,
+				275E3444235DA97600413056 /* SSFree.app */,
 				275E345F235DA9EB00413056 /* PacketTunnel.appex */,
-				27301865235ECC9B00E00181 /* SSFree.appex */,
+				27301865235ECC9B00E00181 /* Ladder.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -276,11 +375,12 @@
 				275E344D235DA97600413056 /* Main.storyboard */,
 				275E3450235DA97900413056 /* Assets.xcassets */,
 				275E3452235DA97900413056 /* LaunchScreen.storyboard */,
-				275E3455235DA97900413056 /* Info.plist */,
+				27A5127923B2F41000C028F5 /* Info.plist */,
 				275E34A5235DAF3F00413056 /* SSVPNManager.swift */,
 				275E34A7235E891A00413056 /* NEKitRule.conf */,
 				275D64FD235EF77C00C21081 /* animation.json */,
 				279E01B123A8C88700C7FF3C /* EncryptionType.plist */,
+				2772441223B2E8A000C53A51 /* SSFree-Bridging-Header.h */,
 			);
 			path = SSFree;
 			sourceTree = "<group>";
@@ -297,6 +397,8 @@
 		275E346D235DAA4400413056 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2772440823B2E81F00C53A51 /* PgySDK.framework */,
+				2772440723B2E81F00C53A51 /* PgyUpdate.framework */,
 				2711F78123A8993000569DB9 /* CocoaAsyncSocket.framework */,
 				2711F78923A8993000569DB9 /* CocoaLumberjack.framework */,
 				2711F78A23A8993000569DB9 /* CocoaLumberjackSwift.framework */,
@@ -374,6 +476,7 @@
 				27301861235ECC9B00E00181 /* Sources */,
 				27301862235ECC9B00E00181 /* Frameworks */,
 				27301863235ECC9B00E00181 /* Resources */,
+				27A5129423B2FDCD00C028F5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -381,7 +484,7 @@
 			);
 			name = SSWidget;
 			productName = SSWidget;
-			productReference = 27301865235ECC9B00E00181 /* SSFree.appex */;
+			productReference = 27301865235ECC9B00E00181 /* Ladder.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		275E3443235DA97600413056 /* SSFree */ = {
@@ -394,6 +497,7 @@
 				275E3442235DA97600413056 /* Resources */,
 				275E346B235DA9EB00413056 /* Embed App Extensions */,
 				5C9B8D1A91B66A35687C48FB /* [CP] Embed Pods Frameworks */,
+				27A512C223B2FDE300C028F5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -403,7 +507,7 @@
 			);
 			name = SSFree;
 			productName = SSFree;
-			productReference = 275E3444235DA97600413056 /* Shadowsocks Client.app */;
+			productReference = 275E3444235DA97600413056 /* SSFree.app */;
 			productType = "com.apple.product-type.application";
 		};
 		275E345E235DA9EB00413056 /* PacketTunnel */ = {
@@ -414,6 +518,7 @@
 				275E345B235DA9EB00413056 /* Sources */,
 				275E345C235DA9EB00413056 /* Frameworks */,
 				275E345D235DA9EB00413056 /* Resources */,
+				27A512AB23B2FDD600C028F5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -431,7 +536,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Ning Li";
 				TargetAttributes = {
 					27301864235ECC9B00E00181 = {
@@ -439,6 +544,7 @@
 					};
 					275E3443235DA97600413056 = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1130;
 					};
 					275E345E235DA9EB00413056 = {
 						CreatedOnToolsVersion = 11.1;
@@ -688,7 +794,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ssfree.SSWidget;
-				PRODUCT_NAME = SSFree;
+				PRODUCT_NAME = Ladder;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -715,7 +821,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ssfree.SSWidget;
-				PRODUCT_NAME = SSFree;
+				PRODUCT_NAME = Ladder;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -844,13 +950,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = SSFree/SSFree.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 898932UN9T;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/SSFree",
 				);
 				INFOPLIST_FILE = SSFree/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -858,8 +967,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ssfree;
-				PRODUCT_NAME = "Shadowsocks Client";
+				PRODUCT_NAME = SSFree;
+				SWIFT_OBJC_BRIDGING_HEADER = "SSFree/SSFree-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -871,13 +983,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = SSFree/SSFree.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 898932UN9T;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/SSFree",
 				);
 				INFOPLIST_FILE = SSFree/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -885,8 +1000,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ssfree;
-				PRODUCT_NAME = "Shadowsocks Client";
+				PRODUCT_NAME = SSFree;
+				SWIFT_OBJC_BRIDGING_HEADER = "SSFree/SSFree-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

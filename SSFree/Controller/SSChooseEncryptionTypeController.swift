@@ -47,8 +47,6 @@ class SSChooseEncryptionTypeController: UIViewController {
         setupTableView()
         
         loadEncrytionTypeData()
-        
-        mainTableView.reloadData()
     }
     
     private func setupTableView() {
@@ -60,18 +58,23 @@ class SSChooseEncryptionTypeController: UIViewController {
     
     /// 加载加密方式数据
     private func loadEncrytionTypeData() {
-        guard let url = Bundle.main.url(forResource: "EncryptionType", withExtension: "plist"),
-            let array = NSArray(contentsOf: url),
-            let data = try? JSONSerialization.data(withJSONObject: array, options: []),
-            let temp = try? JSONDecoder().decode([SSEncryptionTypeModel].self, from: data)
-            else {
-                return
-        }
-        encryptionTypeData = temp
-        
-        if let type = currentType {
-            encryptionTypeData.forEach { (model) in
-                model.isSelected = (model.name == type.name)
+        DispatchQueue.global().async {
+            guard let url = Bundle.main.url(forResource: "EncryptionType", withExtension: "plist"),
+                let array = NSArray(contentsOf: url),
+                let data = try? JSONSerialization.data(withJSONObject: array, options: []),
+                let temp = try? JSONDecoder().decode([SSEncryptionTypeModel].self, from: data)
+                else {
+                    return
+            }
+            self.encryptionTypeData = temp
+            
+            if let type = self.currentType {
+                self.encryptionTypeData.forEach { (model) in
+                    model.isSelected = (model.name == type.name)
+                }
+            }
+            DispatchQueue.main.async {
+                self.mainTableView.reloadData()
             }
         }
     }
