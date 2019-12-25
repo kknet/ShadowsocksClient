@@ -153,9 +153,9 @@ _$sSo19DDLogMessageOptionsVs9OptionSetSCMc
 ___swift_reflection_version
 Apple clang version 11.0.0 (clang-1100.0.33.15)
 <swift-imported-modules>
-/Users/yzh/Documents/Resource/iOS/SSFree/Carthage/Checkouts/CocoaLumberjack
+/Users/yzh/Documents/ShadowsocksClient/Carthage/Checkouts/CocoaLumberjack
 Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
-/Users/yzh/Documents/Resource/iOS/SSFree/Carthage/Checkouts/CocoaLumberjack/Sources/CocoaLumberjackSwift/DDAssert.swift
+/Users/yzh/Documents/ShadowsocksClient/Carthage/Checkouts/CocoaLumberjack/Sources/CocoaLumberjackSwift/DDAssert.swift
 __swift_destroy_boxed_opaque_existential_0
 <compiler-generated>
 __swift_project_boxed_opaque_existential_0
@@ -244,7 +244,7 @@ _$sSnySS5IndexVGSgWOb
 _$sSSySsSnySS5IndexVGcigTf4xn_n
 _$sSsWOs
 _$sS2SSysWL
-/Users/yzh/Documents/Resource/iOS/SSFree/Carthage/Checkouts/CocoaLumberjack/Sources/CocoaLumberjackSwift/CocoaLumberjack.swift
+/Users/yzh/Documents/ShadowsocksClient/Carthage/Checkouts/CocoaLumberjack/Sources/CocoaLumberjackSwift/CocoaLumberjack.swift
 $sSsWOs
 $sSSySsSnySS5IndexVGcigTf4xn_n
 $sSnySS5IndexVGSgWOb

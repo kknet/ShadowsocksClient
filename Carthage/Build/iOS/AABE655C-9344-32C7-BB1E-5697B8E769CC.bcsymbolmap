@@ -125,9 +125,9 @@ ___swift_reflection_version
 _objc_classes
 Apple clang version 11.0.0 (clang-1100.0.33.15)
 <swift-imported-modules>
-/Users/yzh/Documents/Resource/iOS/SSFree/Carthage/Checkouts/tun2socks
+/Users/yzh/Documents/ShadowsocksClient/Carthage/Checkouts/tun2socks
 Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
-/Users/yzh/Documents/Resource/iOS/SSFree/Carthage/Checkouts/tun2socks/tun2socks/TSIPStack.swift
+/Users/yzh/Documents/ShadowsocksClient/Carthage/Checkouts/tun2socks/tun2socks/TSIPStack.swift
 $sSo7in_addrVMa
 <compiler-generated>
 $sSo7tcp_pcbVwst
@@ -277,7 +277,7 @@ _symbolic ______pSgXw 9tun2socks19TSTCPSocketDelegateP
 _$s9tun2socks11TSTCPSocketCMF
 _$ss18_DictionaryStorageCySi9tun2socks11TSTCPSocketCGML
 _$s9tun2socks11TSTCPSocketC3pcb5queueACSpySo04tcp_C0VG_So012OS_dispatch_D0CtcfCTq
-/Users/yzh/Documents/Resource/iOS/SSFree/Carthage/Checkouts/tun2socks/tun2socks/TSTCPSocket.swift
+/Users/yzh/Documents/ShadowsocksClient/Carthage/Checkouts/tun2socks/tun2socks/TSTCPSocket.swift
 $ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSi_9tun2socks11TSTCPSocketCTg5
 $sSayxSicirSi_9tun2socks11TSTCPSocketCt_Tg5
 $sSayxSicigSi_9tun2socks11TSTCPSocketCt_Tg5

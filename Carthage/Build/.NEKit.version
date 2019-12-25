@@ -3,7 +3,7 @@
   "iOS" : [
     {
       "name" : "NEKit",
-      "hash" : "489c68922f1c062f2cf19c83f23cbbeb07dc5cd2370d7d47ce5ca45d104d83e7",
+      "hash" : "66c77e39c4c3b89da1df721d37e85665e99803abb39e679a6b65e2d3afa2389c",
       "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
     }
   ]

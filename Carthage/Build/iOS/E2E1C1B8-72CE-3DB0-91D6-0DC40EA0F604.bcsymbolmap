@@ -1,7 +1,7 @@
 BCSymbolMap Version: 2.0
 Apple clang version 11.0.0 (clang-1100.0.33.16)
 /Users/yzh/Library/Caches/org.carthage.CarthageKit/DerivedData/11.3_11C29/Sodium-framework/v1.0.10.1/Build/Intermediates.noindex/ArchiveIntermediates/Sodium-iOS/IntermediateBuildFilesPath/Sodium.build/Release-iphoneos/Sodium-iOS.build/DerivedSources/Sodium_vers.c
-/Users/yzh/Documents/Resource/iOS/SSFree/Carthage/Checkouts/Sodium-framework
+/Users/yzh/Documents/ShadowsocksClient/Carthage/Checkouts/Sodium-framework
 _crypto_core_curve25519_ref10_fe_frombytes
 _crypto_core_curve25519_ref10_fe_tobytes
 _crypto_core_curve25519_ref10_fe_mul

@@ -373,8 +373,8 @@ _OBJC_IVAR_$_GCDAsyncUdpSocket.writeStream4
 _OBJC_IVAR_$_GCDAsyncUdpSocket.writeStream6
 _OBJC_IVAR_$_GCDAsyncUdpSocket.userData
 Apple clang version 11.0.0 (clang-1100.0.33.16)
-/Users/yzh/Documents/Resource/iOS/SSFree/Carthage/Checkouts/CocoaAsyncSocket/Source/GCD/GCDAsyncUdpSocket.m
-/Users/yzh/Documents/Resource/iOS/SSFree/Carthage/Checkouts/CocoaAsyncSocket
+/Users/yzh/Documents/ShadowsocksClient/Carthage/Checkouts/CocoaAsyncSocket/Source/GCD/GCDAsyncUdpSocket.m
+/Users/yzh/Documents/ShadowsocksClient/Carthage/Checkouts/CocoaAsyncSocket
 __CFWriteStreamCallback_block_invoke
 Source/GCD/GCDAsyncUdpSocket.m
 __CFReadStreamCallback_block_invoke
@@ -917,7 +917,7 @@ _OBJC_IVAR_$_GCDAsyncSocket.lastSSLHandshakeError
 _OBJC_IVAR_$_GCDAsyncSocket.IsOnSocketQueueOrTargetQueueKey
 _OBJC_IVAR_$_GCDAsyncSocket.userData
 _OBJC_IVAR_$_GCDAsyncSocket.alternateAddressDelay
-/Users/yzh/Documents/Resource/iOS/SSFree/Carthage/Checkouts/CocoaAsyncSocket/Source/GCD/GCDAsyncSocket.m
+/Users/yzh/Documents/ShadowsocksClient/Carthage/Checkouts/CocoaAsyncSocket/Source/GCD/GCDAsyncSocket.m
 __45-[GCDAsyncSocket connectWithAddressUN:error:]_block_invoke
 Source/GCD/GCDAsyncSocket.m
 __CFWriteStreamCallback_block_invoke_2
