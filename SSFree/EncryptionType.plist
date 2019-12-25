@@ -4,18 +4,6 @@
 <array>
 	<dict>
 		<key>name</key>
-		<string>AES128GCM</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>AES192GCM</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>AES256GCM</string>
-	</dict>
-	<dict>
-		<key>name</key>
 		<string>AES128CFB</string>
 	</dict>
 	<dict>

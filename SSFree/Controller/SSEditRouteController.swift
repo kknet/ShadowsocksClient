@@ -118,6 +118,7 @@ class SSEditRouteController: UIViewController {
                 return
         }
         let route = SSRouteModel(ip_address: ip_address, port: port, password: password, encryptionType: encryption.name!)
+        route.isSelected = true
         
         guard let doc = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first,
             let data = try? JSONEncoder().encode(route)

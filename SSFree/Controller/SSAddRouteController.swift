@@ -99,6 +99,10 @@ class SSAddRouteController: UIViewController {
             let password = passwordTF.text,
             let encryption = encryptionType
             else {
+                let alertVC = UIAlertController(title: nil, message: "信息不完整", preferredStyle: .alert)
+                let action = UIAlertAction(title: "好", style: .default, handler: nil)
+                alertVC.addAction(action)
+                present(alertVC, animated: true, completion: nil)
                 return
         }
         let route = SSRouteModel(ip_address: ip_address, port: port, password: password, encryptionType: encryption.name!)
