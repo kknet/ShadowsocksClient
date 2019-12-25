@@ -133,6 +133,9 @@ extension SSRouteListController: UITableViewDataSource, UITableViewDelegate {
         let vc = SSEditRouteController.editRoute(route: model) { (route) in
             self.routeData.remove(at: indexPath.row)
             self.routeData.insert(route, at: indexPath.row)
+            if route.isSelected ?? false {
+                self.complete?(route)
+            }
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
                 tableView.reloadRows(at: [indexPath], with: .automatic)
             }
