@@ -14,3 +14,6 @@
 <img src="https://github.com/NingLi-iOSer/ShadowsocksClient/blob/master/previews/Home.png" width="300">
 <img src="https://github.com/NingLi-iOSer/ShadowsocksClient/blob/master/previews/AddRoute.png" width="300">
 <img src="https://github.com/NingLi-iOSer/ShadowsocksClient/blob/master/previews/RouteList.png" width="300">
+
+## License
+MIT License.
