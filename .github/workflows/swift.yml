@@ -6,11 +6,11 @@ jobs:
     runs-on: macOS-latest
     strategy:
         matrix:
-          destination: ['platform=iOS Simulator,OS=13.0,name=iPhone 11 pro']
+          destination: ['platform:iOS Simulator, id:8F09571C-70ED-4E2B-8B43-E1E94ADB9EA5, OS:13.1, name:iPhone 11 Pro']
     steps:
       - name: Checkout
         uses: actions/checkout@master
-      - name: Build and test
+      - name: build
         run: |
           xcodebuild clean build -project SSFree.xcodeproj -scheme SSFree -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
           bash <(curl -s https://codecov.io/bash)
