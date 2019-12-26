@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2704949723B451AB00B5D431 /* SSPopoverTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2704949623B451AB00B5D431 /* SSPopoverTableView.swift */; };
+		2704949923B4531800B5D431 /* SSPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2704949823B4531800B5D431 /* SSPopoverView.swift */; };
+		2704949C23B4607E00B5D431 /* Popover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2704949223B450FD00B5D431 /* Popover.framework */; };
+		2704949D23B4607E00B5D431 /* Popover.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2704949223B450FD00B5D431 /* Popover.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2704949F23B4611400B5D431 /* SSScanQRCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2704949E23B4611400B5D431 /* SSScanQRCodeController.swift */; };
+		270494A123B4615500B5D431 /* SSScanQRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270494A023B4615500B5D431 /* SSScanQRCodeView.swift */; };
+		270494A323B461CE00B5D431 /* SSScanQRCodeHelperTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270494A223B461CE00B5D431 /* SSScanQRCodeHelperTool.swift */; };
+		270494A523B48D7500B5D431 /* scan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 270494A423B48D7400B5D431 /* scan.m4a */; };
 		271C8A1223A8BF1D008B7EAD /* SSAddRouteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271C8A1123A8BF1D008B7EAD /* SSAddRouteController.swift */; };
 		2730186A235ECC9B00E00181 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27301869235ECC9B00E00181 /* TodayViewController.swift */; };
 		2730186D235ECC9B00E00181 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2730186B235ECC9B00E00181 /* MainInterface.storyboard */; };
@@ -192,6 +200,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2704949D23B4607E00B5D431 /* Popover.framework in Embed Frameworks */,
 				27A512BB23B2FDE300C028F5 /* Resolver.framework in Embed Frameworks */,
 				27A512B323B2FDE300C028F5 /* CommonCrypto.framework in Embed Frameworks */,
 				27A512AF23B2FDE200C028F5 /* CocoaLumberjack.framework in Embed Frameworks */,
@@ -211,6 +220,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2704949223B450FD00B5D431 /* Popover.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Popover.framework; path = Carthage/Build/iOS/Popover.framework; sourceTree = "<group>"; };
+		2704949623B451AB00B5D431 /* SSPopoverTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSPopoverTableView.swift; sourceTree = "<group>"; };
+		2704949823B4531800B5D431 /* SSPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSPopoverView.swift; sourceTree = "<group>"; };
+		2704949E23B4611400B5D431 /* SSScanQRCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSScanQRCodeController.swift; sourceTree = "<group>"; };
+		270494A023B4615500B5D431 /* SSScanQRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSScanQRCodeView.swift; sourceTree = "<group>"; };
+		270494A223B461CE00B5D431 /* SSScanQRCodeHelperTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSScanQRCodeHelperTool.swift; sourceTree = "<group>"; };
+		270494A423B48D7400B5D431 /* scan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = scan.m4a; sourceTree = "<group>"; };
 		2711F78123A8993000569DB9 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
 		2711F78323A8993000569DB9 /* Resolver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Resolver.framework; path = Carthage/Build/iOS/Resolver.framework; sourceTree = "<group>"; };
 		2711F78423A8993000569DB9 /* Sodium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sodium.framework; path = Carthage/Build/iOS/Sodium.framework; sourceTree = "<group>"; };
@@ -290,6 +306,7 @@
 			files = (
 				27A512C023B2FDE300C028F5 /* Yaml.framework in Frameworks */,
 				27A512AE23B2FDE200C028F5 /* CocoaLumberjack.framework in Frameworks */,
+				2704949C23B4607E00B5D431 /* Popover.framework in Frameworks */,
 				27A5127C23B2F9D400C028F5 /* NetworkExtension.framework in Frameworks */,
 				27A512B623B2FDE300C028F5 /* MMDB.framework in Frameworks */,
 				27A512BA23B2FDE300C028F5 /* Resolver.framework in Frameworks */,
@@ -326,6 +343,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2704949523B4518F00B5D431 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2704949623B451AB00B5D431 /* SSPopoverTableView.swift */,
+				2704949823B4531800B5D431 /* SSPopoverView.swift */,
+				270494A023B4615500B5D431 /* SSScanQRCodeView.swift */,
+				270494A223B461CE00B5D431 /* SSScanQRCodeHelperTool.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		27301868235ECC9B00E00181 /* SSWidget */ = {
 			isa = PBXGroup;
 			children = (
@@ -361,6 +389,7 @@
 		275E3446235DA97600413056 /* SSFree */ = {
 			isa = PBXGroup;
 			children = (
+				2704949523B4518F00B5D431 /* View */,
 				277673AE23B1F7EB003898AC /* Cell */,
 				277673AD23B1F7DB003898AC /* Controller */,
 				279E01B523A8C96600C7FF3C /* Model */,
@@ -373,6 +402,7 @@
 				275E34A5235DAF3F00413056 /* SSVPNManager.swift */,
 				275E34A7235E891A00413056 /* NEKitRule.conf */,
 				275D64FD235EF77C00C21081 /* animation.json */,
+				270494A423B48D7400B5D431 /* scan.m4a */,
 				279E01B123A8C88700C7FF3C /* EncryptionType.plist */,
 				2772441223B2E8A000C53A51 /* SSFree-Bridging-Header.h */,
 			);
@@ -391,6 +421,7 @@
 		275E346D235DAA4400413056 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2704949223B450FD00B5D431 /* Popover.framework */,
 				2738304D23B3512E003FAC10 /* SwiftTimer.framework */,
 				2738304A23B3511F003FAC10 /* Lottie.framework */,
 				2772440823B2E81F00C53A51 /* PgySDK.framework */,
@@ -421,6 +452,7 @@
 				271C8A1123A8BF1D008B7EAD /* SSAddRouteController.swift */,
 				279E01B323A8C8F100C7FF3C /* SSChooseEncryptionTypeController.swift */,
 				275884EF23B2050200CE6B0F /* SSEditRouteController.swift */,
+				2704949E23B4611400B5D431 /* SSScanQRCodeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -564,6 +596,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				275E3454235DA97900413056 /* LaunchScreen.storyboard in Resources */,
+				270494A523B48D7500B5D431 /* scan.m4a in Resources */,
 				275D64FE235EF77C00C21081 /* animation.json in Resources */,
 				275E34A8235E891A00413056 /* NEKitRule.conf in Resources */,
 				27A8047123A8D08300DE6FED /* SSEncryptionTypeCell.xib in Resources */,
@@ -618,12 +651,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270494A323B461CE00B5D431 /* SSScanQRCodeHelperTool.swift in Sources */,
 				275E344C235DA97600413056 /* ViewController.swift in Sources */,
 				2788D18023A9B0A700AF2091 /* SSRouteCell.swift in Sources */,
 				279E01B423A8C8F100C7FF3C /* SSChooseEncryptionTypeController.swift in Sources */,
 				275E3448235DA97600413056 /* AppDelegate.swift in Sources */,
+				2704949F23B4611400B5D431 /* SSScanQRCodeController.swift in Sources */,
+				270494A123B4615500B5D431 /* SSScanQRCodeView.swift in Sources */,
 				275E34A6235DAF3F00413056 /* SSVPNManager.swift in Sources */,
+				2704949723B451AB00B5D431 /* SSPopoverTableView.swift in Sources */,
 				271C8A1223A8BF1D008B7EAD /* SSAddRouteController.swift in Sources */,
+				2704949923B4531800B5D431 /* SSPopoverView.swift in Sources */,
 				27A8046D23A8CF7300DE6FED /* SSRouteModel.swift in Sources */,
 				279CDE5D23A8B7DF005C68EC /* SSRouteListController.swift in Sources */,
 				275884F023B2050200CE6B0F /* SSEditRouteController.swift in Sources */,

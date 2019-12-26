@@ -18,6 +18,8 @@ class SSAddRouteController: UIViewController {
     private var statusBarStyle = UIStatusBarStyle.default
     /// 加密方式
     private var encryptionType: SSEncryptionTypeModel?
+    /// 扫码获取的线路
+    private var scanRoute: SSRouteModel?
     
     @IBOutlet weak var topBGViewHeightCons: NSLayoutConstraint!
     @IBOutlet weak var addressTF: UITextField!
@@ -25,9 +27,10 @@ class SSAddRouteController: UIViewController {
     @IBOutlet weak var passwordTF: UITextField!
     @IBOutlet weak var encryptionTypeLabel: UILabel!
     
-    class func addRoute() -> SSAddRouteController {
+    class func addRoute(scanRoute: SSRouteModel?) -> SSAddRouteController {
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let vc = sb.instantiateViewController(identifier: "AddRoute") as! SSAddRouteController
+        vc.scanRoute = scanRoute
         return vc
     }
 
@@ -48,6 +51,14 @@ class SSAddRouteController: UIViewController {
         saveButton.addTarget(self, action: #selector(save), for: .touchUpInside)
         
         navItem.rightBarButtonItem = UIBarButtonItem(customView: saveButton)
+        
+        if let route = scanRoute {
+            addressTF.text = route.ip_address
+            portTF.text = "\(route.port)"
+            passwordTF.text = route.password
+            encryptionTypeLabel.text = route.encryptionType
+            encryptionType = SSEncryptionTypeModel(name: route.encryptionType, isSelected: true)
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {

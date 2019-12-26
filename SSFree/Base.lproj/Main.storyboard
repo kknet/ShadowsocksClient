@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="EeQ-Zp-QBC">
             <objects>
-                <viewController id="vNJ-Ju-6FR" customClass="ViewController" customModule="Shadowsocks_Client" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vNJ-Ju-6FR" customClass="ViewController" customModule="SSFree" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iZ1-j9-K44">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -125,7 +125,7 @@
         <!--Add Route Controller-->
         <scene sceneID="Fzo-kZ-1ee">
             <objects>
-                <viewController storyboardIdentifier="AddRoute" id="5Ug-VH-uae" customClass="SSAddRouteController" customModule="Shadowsocks_Client" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddRoute" id="5Ug-VH-uae" customClass="SSAddRouteController" customModule="SSFree" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4H3-Wm-Hio">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -349,7 +349,7 @@
         <!--Route List Controller-->
         <scene sceneID="Y2d-LE-vyt">
             <objects>
-                <viewController storyboardIdentifier="RouteList" id="eo6-Dr-hAn" customClass="SSRouteListController" customModule="Shadowsocks_Client" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RouteList" id="eo6-Dr-hAn" customClass="SSRouteListController" customModule="SSFree" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fzl-pd-c74">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -395,7 +395,7 @@
         <!--Custom Navigation Controller-->
         <scene sceneID="C97-Mh-iPm">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kka-i7-HwP" customClass="CustomNavigationController" customModule="Shadowsocks_Client" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kka-i7-HwP" customClass="CustomNavigationController" customModule="SSFree" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EKf-7x-Xgb">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -413,7 +413,7 @@
         <!--Choose Encryption Type Controller-->
         <scene sceneID="DiQ-q7-nuc">
             <objects>
-                <viewController storyboardIdentifier="EncryptionType" id="mVS-mH-zkN" customClass="SSChooseEncryptionTypeController" customModule="Shadowsocks_Client" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EncryptionType" id="mVS-mH-zkN" customClass="SSChooseEncryptionTypeController" customModule="SSFree" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3e3-QF-X8S">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -459,7 +459,7 @@
         <!--Edit Route Controller-->
         <scene sceneID="D7q-iA-msz">
             <objects>
-                <viewController storyboardIdentifier="EditRoute" id="gcm-k1-gkO" customClass="SSEditRouteController" customModule="Shadowsocks_Client" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EditRoute" id="gcm-k1-gkO" customClass="SSEditRouteController" customModule="SSFree" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f1c-xO-dzO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -642,6 +642,18 @@
                                     <outletCollection property="gestureRecognizers" destination="pF1-ZL-O24" appends="YES" id="Fsy-Uw-y7R"/>
                                 </connections>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vZ-hz-So3">
+                                <rect key="frame" x="354" y="802" width="40" height="40"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="OKb-0U-W6a"/>
+                                    <constraint firstAttribute="height" constant="40" id="fB8-M9-uB0"/>
+                                </constraints>
+                                <state key="normal" image="qrcode"/>
+                                <connections>
+                                    <action selector="showQRCode" destination="gcm-k1-gkO" eventType="touchUpInside" id="L8x-OR-xey"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" name="Background"/>
                         <constraints>
@@ -650,6 +662,7 @@
                             <constraint firstItem="XYf-K6-v4F" firstAttribute="top" secondItem="sqK-g0-0jD" secondAttribute="bottom" id="5wH-t0-zIS"/>
                             <constraint firstItem="goW-yF-tLi" firstAttribute="leading" secondItem="A4Q-d8-vAL" secondAttribute="leading" id="9PX-G4-YqI"/>
                             <constraint firstItem="Xcy-3a-Pfu" firstAttribute="leading" secondItem="A4Q-d8-vAL" secondAttribute="leading" id="Bmf-4X-9nH"/>
+                            <constraint firstItem="A4Q-d8-vAL" firstAttribute="trailing" secondItem="3vZ-hz-So3" secondAttribute="trailing" constant="20" id="EOq-1p-CPI"/>
                             <constraint firstAttribute="trailing" secondItem="sqK-g0-0jD" secondAttribute="trailing" id="IGi-Y0-VvC"/>
                             <constraint firstAttribute="trailing" secondItem="Xcy-3a-Pfu" secondAttribute="trailing" id="NaW-Nt-ZzN"/>
                             <constraint firstItem="goW-yF-tLi" firstAttribute="top" secondItem="XYf-K6-v4F" secondAttribute="bottom" id="Shj-Fc-nl1"/>
@@ -658,6 +671,7 @@
                             <constraint firstAttribute="trailing" secondItem="goW-yF-tLi" secondAttribute="trailing" id="Z6r-7L-Lmn"/>
                             <constraint firstItem="Xcy-3a-Pfu" firstAttribute="top" secondItem="goW-yF-tLi" secondAttribute="bottom" id="qJs-ep-wBs"/>
                             <constraint firstItem="Sbs-Kh-2q1" firstAttribute="leading" secondItem="A4Q-d8-vAL" secondAttribute="leading" id="r7E-1k-ayi"/>
+                            <constraint firstItem="A4Q-d8-vAL" firstAttribute="bottom" secondItem="3vZ-hz-So3" secondAttribute="bottom" constant="20" id="rGv-2V-CZb"/>
                             <constraint firstItem="A4Q-d8-vAL" firstAttribute="trailing" secondItem="Sbs-Kh-2q1" secondAttribute="trailing" id="s2M-4c-7wa"/>
                             <constraint firstItem="XYf-K6-v4F" firstAttribute="leading" secondItem="A4Q-d8-vAL" secondAttribute="leading" id="vnJ-B5-doP"/>
                         </constraints>
@@ -669,6 +683,7 @@
                         <outlet property="ipTF" destination="7TX-Tb-Ns9" id="PJO-6R-0Xv"/>
                         <outlet property="passwordTF" destination="ouw-rI-2S1" id="5dc-6f-CVB"/>
                         <outlet property="portTF" destination="F2c-vY-Zk8" id="96F-8b-dQn"/>
+                        <outlet property="showQRCodeButton" destination="3vZ-hz-So3" id="p2D-ml-MWd"/>
                         <outlet property="topBGViewHeightCons" destination="AdM-cm-6hD" id="lfx-om-h8G"/>
                     </connections>
                 </viewController>
@@ -681,10 +696,41 @@
             </objects>
             <point key="canvasLocation" x="2629" y="504"/>
         </scene>
+        <!--ScanQR Code Controller-->
+        <scene sceneID="a8j-Vl-LOG">
+            <objects>
+                <viewController storyboardIdentifier="Scan" id="pDK-Fq-qok" customClass="SSScanQRCodeController" customModule="SSFree" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lw0-0G-C9v">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WcH-lQ-PwS" customClass="SSScanQRCodeView" customModule="SSFree" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88627450980392153" green="0.88627450980392153" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WcH-lQ-PwS" firstAttribute="leading" secondItem="S2y-np-0MJ" secondAttribute="leading" id="6aO-1j-l0o"/>
+                            <constraint firstItem="S2y-np-0MJ" firstAttribute="trailing" secondItem="WcH-lQ-PwS" secondAttribute="trailing" id="YoW-ci-4Ry"/>
+                            <constraint firstAttribute="bottom" secondItem="WcH-lQ-PwS" secondAttribute="bottom" id="c3X-eB-xOG"/>
+                            <constraint firstItem="WcH-lQ-PwS" firstAttribute="top" secondItem="lw0-0G-C9v" secondAttribute="top" id="oet-Ff-8vy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="S2y-np-0MJ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ihq-ma-rJx"/>
+                    <connections>
+                        <outlet property="scanView" destination="WcH-lQ-PwS" id="Fxs-JD-fA7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MDZ-l9-PiK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1682.608695652174" y="-901.33928571428567"/>
+        </scene>
     </scenes>
     <resources>
         <image name="arrow_right" width="22" height="22"/>
         <image name="kaiguan" width="100" height="100"/>
+        <image name="qrcode" width="25" height="25"/>
         <image name="route" width="22" height="22"/>
         <namedColor name="Background">
             <color red="0.96078431372549022" green="0.96862745098039216" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

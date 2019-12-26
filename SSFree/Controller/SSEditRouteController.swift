@@ -21,12 +21,16 @@ class SSEditRouteController: UIViewController {
     private lazy var navItem = UINavigationItem(title: "编辑线路")
     /// 状态栏样式
     private var statusBarStyle = UIStatusBarStyle.default
+    /// 二维码 ImageView
+    private lazy var qrcodeImageView = UIImageView()
     
     @IBOutlet weak var topBGViewHeightCons: NSLayoutConstraint!
     @IBOutlet weak var ipTF: UITextField!
     @IBOutlet weak var portTF: UITextField!
     @IBOutlet weak var passwordTF: UITextField!
     @IBOutlet weak var encryptionTypeLabel: UILabel!
+    /// 展示二维码按钮
+    @IBOutlet weak var showQRCodeButton: UIButton!
     
     class func editRoute(route: SSRouteModel, completed: ((_ route: SSRouteModel) -> Void)?) -> SSEditRouteController {
         let sb = UIStoryboard(name: "Main", bundle: nil)
@@ -54,6 +58,12 @@ class SSEditRouteController: UIViewController {
         saveButton.addTarget(self, action: #selector(save), for: .touchUpInside)
         
         navItem.rightBarButtonItem = UIBarButtonItem(customView: saveButton)
+        
+        showQRCodeButton.layer.cornerRadius = 20
+        showQRCodeButton.layer.shadowColor = UIColor.black.cgColor
+        showQRCodeButton.layer.shadowRadius = 5
+        showQRCodeButton.layer.shadowOpacity = 0.2
+        showQRCodeButton.layer.shadowOffset = CGSize(width: 0, height: 2)
         
         encryptionType = SSEncryptionTypeModel(name: route.encryptionType, isSelected: true)
         ipTF.text = route.ip_address
@@ -136,5 +146,11 @@ class SSEditRouteController: UIViewController {
             completed?(route)
             navigationController?.popViewController(animated: true)
         }
+    }
+    
+    /// 展示二维码图片
+    @IBAction private func showQRCode() {
+        
+        
     }
 }

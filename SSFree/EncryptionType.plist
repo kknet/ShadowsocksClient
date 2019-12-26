@@ -4,15 +4,15 @@
 <array>
 	<dict>
 		<key>name</key>
-		<string>AES128CFB</string>
+		<string>AES-128-CFB</string>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>AES192CFB</string>
+		<string>AES-192-CFB</string>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>AES256CFB</string>
+		<string>AES-256-CFB</string>
 	</dict>
 	<dict>
 		<key>name</key>

@@ -9,6 +9,7 @@
 import UIKit
 import NetworkExtension
 import Lottie
+import Popover
 
 class ViewController: UIViewController {
     
@@ -50,6 +51,14 @@ class ViewController: UIViewController {
     private var statusBarStyle = UIStatusBarStyle.default
     /// 当前线路
     private var currentRoute: SSRouteModel?
+    // 添加线路按钮
+    private lazy var addRouteButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.setImage(#imageLiteral(resourceName: "add"), for: .normal)
+        button.addTarget(self, action: #selector(addRoute), for: .touchUpInside)
+        button.sizeToFit()
+        return button
+    }()
 
     @IBOutlet weak var topBGViewHeightCons: NSLayoutConstraint!
     /// 开关
@@ -84,7 +93,7 @@ class ViewController: UIViewController {
         navigationController?.navigationBar.shadowImage = UIImage()
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "add"), style: .plain, target: self, action: #selector(addRoute))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(customView: addRouteButton)
     }
     
     private func setupGradient() {
@@ -236,8 +245,63 @@ extension ViewController {
     
     /// 添加路线
     @objc private func addRoute() {
-        let vc = SSAddRouteController.addRoute()
-        navigationController?.pushViewController(vc, animated: true)
+        let actions = [SSPopoverAction(title: "扫描二维码", image: nil, height: 40, index: 0),
+                       SSPopoverAction(title: "手动添加", image: nil, height: 40, index: 1)]
+        SSPopoverView.show(actions: actions, width: 100, from: addRouteButton) { (action) in
+            if action.index == 0 {
+                let vc = SSScanQRCodeController.scan { (result) in
+                    guard let routeInfo = result else { return }
+                    let route = self.decodeRouteInfo(routeInfo)
+                    let vc = SSAddRouteController.addRoute(scanRoute: route)
+                    self.navigationController?.pushViewController(vc, animated: true)
+                }
+                self.navigationController?.pushViewController(vc, animated: true)
+            } else {
+                let vc = SSAddRouteController.addRoute(scanRoute: nil)
+                self.navigationController?.pushViewController(vc, animated: true)
+            }
+        }
+    }
+    
+    /// 解析路线信息
+    private func decodeRouteInfo(_ info: String) -> SSRouteModel? {
+        if !info.hasPrefix("ss://") {
+            return nil
+        }
+        
+        let content = (info as NSString).substring(from: 5)
+        
+        let passwordPattern = "(.*)@"
+        let passwords = match(pattern: passwordPattern, in: content, locationOffset: 0, lengthOffset: -1, isBase64: true)
+        let algorithm = passwords[0].uppercased()
+        let password = passwords[1]
+
+        let hostPattern = "@(.*):"
+        let host = match(pattern: hostPattern, in: content, locationOffset: 1, lengthOffset: -2)[0]
+
+        let portPattern = ":(.*)/"
+        let port = match(pattern: portPattern, in: content, locationOffset: 1, lengthOffset: -2)[0]
+        
+        let route = SSRouteModel(ip_address: host, port: port, password: password, encryptionType: algorithm)
+        
+        return route
+    }
+    
+    /// 匹配路线内容
+    func match(pattern: String, in text: String, locationOffset: Int, lengthOffset: Int, isBase64: Bool = false) -> [String] {
+        let regx = try! NSRegularExpression(pattern: pattern, options: .caseInsensitive)
+        guard let result = regx.firstMatch(in: text, options: .reportCompletion, range: NSMakeRange(0, text.count)) else {
+            return []
+        }
+        let content = (text as NSString).substring(with: NSMakeRange(result.range.location + locationOffset, result.range.length + lengthOffset))
+        if isBase64 {
+            let data = Data(base64Encoded: content)
+            let algorithmAndPassword = String(data: data!, encoding: .utf8)!
+            let strings = algorithmAndPassword.components(separatedBy: ":")
+            return strings
+        } else {
+            return [content]
+        }
     }
 }
 

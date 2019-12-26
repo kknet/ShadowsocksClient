@@ -42,11 +42,11 @@ class PacketTunnelProvider: NEPacketTunnelProvider {
 
         let algorithm: CryptoAlgorithm
         switch ss_method {
-        case "AES128CFB":
+        case "AES-128-CFB":
             algorithm = .AES128CFB
-        case "AES192CFB":
+        case "AES-192-CFB":
             algorithm = .AES192CFB
-        case "AES256CFB":
+        case "AES-256-CFB":
             algorithm = .AES256CFB
         case "CHACHA20":
             algorithm = .CHACHA20

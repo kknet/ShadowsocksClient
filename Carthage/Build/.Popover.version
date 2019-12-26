@@ -1,0 +1,10 @@
+{
+  "commitish" : "v1.2.2",
+  "iOS" : [
+    {
+      "name" : "Popover",
+      "hash" : "b4f901efddc61ab7bbb8aa9786d78efa1437f63d5cfe59e57068a0378cc81427",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    }
+  ]
+}
