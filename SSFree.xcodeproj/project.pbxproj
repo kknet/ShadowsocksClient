@@ -475,6 +475,7 @@
 				275E3442235DA97600413056 /* Resources */,
 				275E346B235DA9EB00413056 /* Embed App Extensions */,
 				27A512C223B2FDE300C028F5 /* Embed Frameworks */,
+				2704949023B4373900B5D431 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -581,6 +582,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2704949023B4373900B5D431 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# If configuration is not Debug, skip this script.\n[ \"${CONFIGURATION}\" != \"Debug\" ] && exit 0\n\nFRAMEWORK_FILENAME=\"WoodPeckeriOS.framework\"\nFRAMEWORK_PATH=\"${SRCROOT}/WoodPeckeriOS.framework\"\n\nFRAMEWORK_WORKPATH=\"${CODESIGNING_FOLDER_PATH}/Frameworks\"\n\nif [ ! -d \"{FRAMEWORK_WORKPATH}\" ]; then\n    mkdir \"${FRAMEWORK_WORKPATH}\"\nfi\n\nif [ -e \"${FRAMEWORK_PATH}\" ]; then\n    cp -Rf \"$FRAMEWORK_PATH\" \"${FRAMEWORK_WORKPATH}/${FRAMEWORK_FILENAME}\"\n    if [ -n \"${EXPANDED_CODE_SIGN_IDENTITY}\" ]; then\n        codesign -fs \"${EXPANDED_CODE_SIGN_IDENTITY}\" \"${FRAMEWORK_WORKPATH}/${FRAMEWORK_FILENAME}\"\n    fi\n    echo \"${FRAMEWORK_FILENAME} is included in this build, and has been copied to $CODESIGNING_FOLDER_PATH\"\nelse\n    echo \"${FRAMEWORK_FILENAME} could not be found.\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		27301861235ECC9B00E00181 /* Sources */ = {
@@ -851,6 +872,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/SSFree",
+					"$(SRCROOT)",
 				);
 				INFOPLIST_FILE = SSFree/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -859,6 +881,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-weak_framework",
+					WoodPeckeriOS,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ssfree;
 				PRODUCT_NAME = SSFree;
 				SWIFT_OBJC_BRIDGING_HEADER = "SSFree/SSFree-Bridging-Header.h";
