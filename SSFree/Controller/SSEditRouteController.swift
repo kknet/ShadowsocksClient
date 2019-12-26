@@ -104,6 +104,11 @@ class SSEditRouteController: UIViewController {
         return statusBarStyle
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
+        view.endEditing(true)
+    }
+    
     /// 返回
     @objc private func back() {
         navigationController?.popViewController(animated: true)
@@ -150,7 +155,94 @@ class SSEditRouteController: UIViewController {
     
     /// 展示二维码图片
     @IBAction private func showQRCode() {
+        guard let ip_address = ipTF.text,
+            let port = portTF.text,
+            let password = passwordTF.text,
+            let encryption = encryptionType
+            else {
+                let alertVC = UIAlertController(title: nil, message: "信息不完整", preferredStyle: .alert)
+                let action = UIAlertAction(title: "好", style: .default, handler: nil)
+                alertVC.addAction(action)
+                present(alertVC, animated: true, completion: nil)
+                return
+        }
         
+        // 拼接二维码字符串
+        // 加密方式+密码 base64
+        let passwordString = "\(encryption.name!):\(password)"
+        let passwordData = passwordString.data(using: .utf8)!
+        let passwordBase64 = passwordData.base64EncodedString()
         
+        let qrcodeContent = "ss://\(passwordBase64)@\(ip_address):\(port)/?#"
+        let qrcodeImageWidth = view.bounds.width - 100
+        let qrcodeSize = CGSize(width: qrcodeImageWidth, height: qrcodeImageWidth)
+        guard let qrcodeImage = createQRCodeImage(content: qrcodeContent, size: qrcodeSize) else {
+            return
+        }
+        qrcodeImageView.image = qrcodeImage
+        qrcodeImageView.bounds.size = qrcodeSize
+        qrcodeImageView.center = CGPoint(x: view.bounds.width * 0.5, y: view.bounds.height * 0.5)
+        let qrcodeImageContainer = UIView(frame: CGRect(origin: CGPoint(x: 0, y: view.bounds.height), size: view.bounds.size))
+        qrcodeImageContainer.backgroundColor = UIColor.white
+        qrcodeImageContainer.addSubview(qrcodeImageView)
+        view.addSubview(qrcodeImageContainer)
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(hiddenQRCode))
+        qrcodeImageContainer.addGestureRecognizer(tap)
+        
+        UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseOut, animations: {
+            self.qrcodeImageView.superview!.frame.origin.y = 0
+        }, completion: nil)
+    }
+    
+    /// 隐藏二维码
+    @objc private func hiddenQRCode() {
+        UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseOut, animations: {
+            self.qrcodeImageView.superview!.frame.origin.y = self.view.bounds.height
+        }, completion: nil)
+    }
+}
+
+// MARK: - 绘制二维码
+extension SSEditRouteController {
+    fileprivate func createQRCodeImage(content: String, size: CGSize) -> UIImage? {
+        //creat 二维码滤镜
+        let filter = CIFilter(name: "CIQRCodeGenerator")
+        //恢复默认属性
+        filter?.setDefaults()
+        let data = content.data(using: .utf8)
+        filter?.setValue(data, forKey: "inputMessage")
+        //生成二维码
+        guard let ciImage = filter?.outputImage else {
+            return nil
+        }
+        let image = transitionCIImageToUIImage(ciImage: ciImage, size: size)
+        return image
+    }
+    
+    fileprivate func transitionCIImageToUIImage(ciImage: CIImage, size: CGSize) -> UIImage? {
+        //获取ciimage的bounds
+        let extent = ciImage.extent
+        //获取缩放比例
+        let scale = min(size.width / extent.width, size.height / extent.height) * UIScreen.main.scale
+        //创建bitmap(位图)
+        let context = CIContext(options: nil)
+        guard let bitImage = context.createCGImage(ciImage, from: extent) else { return nil }
+        
+        let width = extent.width * scale
+        let height = extent.height * scale
+        //创建灰度空间
+        let cs = CGColorSpaceCreateDeviceGray()
+        //创建位图上下文
+        let bitRef = CGContext.init(data: nil, width:Int(width), height: Int(height), bitsPerComponent: 8, bytesPerRow: 0, space: cs, bitmapInfo: CGImageAlphaInfo.none.rawValue)
+        bitRef?.interpolationQuality = .none
+        bitRef?.scaleBy(x: scale, y: scale)
+        bitRef?.draw(bitImage, in: extent)
+        //绘制
+        guard let scaleImage = bitRef?.makeImage() else { return nil }
+        
+        let image = UIImage.init(cgImage: scaleImage)
+        
+        return image
     }
 }
