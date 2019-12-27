@@ -3,7 +3,7 @@
   "iOS" : [
     {
       "name" : "TrafficPolice",
-      "hash" : "3ecfb405fcd862b4503f0729c66000afd5f7ca64ad7fe51d17090a484226bab8",
+      "hash" : "64bf7dbfff8c07fe691becc2dada4ce69762e269508f0e9908ab494f4324f77f",
       "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
     }
   ]

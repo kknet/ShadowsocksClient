@@ -1,3 +1,27 @@
 [submodule "Carthage/Checkouts/Popover"]
 	path = Carthage/Checkouts/Popover
 	url = https://github.com/corin8823/Popover.git
+[submodule "Carthage/Checkouts/Sodium-framework"]
+	url = https://github.com/zhuhaow/Sodium-framework.git
+[submodule "Carthage/Checkouts/CocoaAsyncSocket"]
+	url = https://github.com/robbiehanson/CocoaAsyncSocket.git
+[submodule "Carthage/Checkouts/MMDB-Swift"]
+	url = https://github.com/lexrus/MMDB-Swift.git
+[submodule "Carthage/Checkouts/TrafficPolice"]
+	url = https://github.com/anotheren/TrafficPolice.git
+[submodule "Carthage/Checkouts/tun2socks"]
+	url = https://github.com/zhuhaow/tun2socks.git
+[submodule "Carthage/Checkouts/lottie-ios"]
+	url = https://github.com/airbnb/lottie-ios.git
+[submodule "Carthage/Checkouts/NEKit"]
+	url = https://github.com/zhuhaow/NEKit.git
+[submodule "Carthage/Checkouts/YamlSwift"]
+	url = https://github.com/behrang/YamlSwift.git
+[submodule "Carthage/Checkouts/Resolver"]
+	url = https://github.com/zhuhaow/Resolver.git
+[submodule "Carthage/Checkouts/SwiftTimer"]
+	url = https://github.com/anotheren/SwiftTimer.git
+[submodule "Carthage/Checkouts/CocoaLumberjack"]
+	url = https://github.com/CocoaLumberjack/CocoaLumberjack.git
+[submodule "Carthage/Checkouts/CommonCrypto"]
+	url = https://github.com/soffes/CommonCrypto.git

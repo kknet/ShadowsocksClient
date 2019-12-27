@@ -350,8 +350,6 @@ extension SSScanQRCodeController {
 extension SSScanQRCodeController: AVCaptureMetadataOutputObjectsDelegate {
     func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
         
-        AudioServicesPlaySystemSound(soundId)
-        
         // 获取第一个结果
         guard let metadata = metadataObjects.first as? AVMetadataMachineReadableCodeObject,
             let result = metadata.stringValue
@@ -361,6 +359,7 @@ extension SSScanQRCodeController: AVCaptureMetadataOutputObjectsDelegate {
         
         // 停止 session
         stopSession()
+        AudioServicesPlaySystemSound(soundId)
         
         // 回调结果
         complete?(result)

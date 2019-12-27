@@ -1,6 +1,6 @@
 
-# github "soffes/CommonCrypto"
-# git "https://github.com/zhuhaow/NEKit" "master"
-# github "airbnb/lottie-ios" "master"
-# github "anotheren/TrafficPolice" ~> 1.0
+github "soffes/CommonCrypto"
+git "https://github.com/zhuhaow/NEKit" "master"
+github "airbnb/lottie-ios" "master"
+github "anotheren/TrafficPolice" ~> 1.0
 github "corin8823/Popover"

@@ -238,6 +238,7 @@ SWIFT_CLASS("_TtC7Popover7Popover")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithShowHandler:(void (^ _Nullable)(void))showHandler dismissHandler:(void (^ _Nullable)(void))dismissHandler OBJC_DESIGNATED_INITIALIZER SWIFT_DEPRECATED_OBJC("Swift initializer 'Popover.init(showHandler:dismissHandler:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
 - (void)showAsDialog:(UIView * _Nonnull)contentView SWIFT_DEPRECATED_OBJC("Swift method 'Popover.showAsDialog(_:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 - (void)showAsDialog:(UIView * _Nonnull)contentView inView:(UIView * _Nonnull)inView SWIFT_DEPRECATED_OBJC("Swift method 'Popover.showAsDialog(_:inView:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 - (void)show:(UIView * _Nonnull)contentView fromView:(UIView * _Nonnull)fromView SWIFT_DEPRECATED_OBJC("Swift method 'Popover.show(_:fromView:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
@@ -498,6 +499,7 @@ SWIFT_CLASS("_TtC7Popover7Popover")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithShowHandler:(void (^ _Nullable)(void))showHandler dismissHandler:(void (^ _Nullable)(void))dismissHandler OBJC_DESIGNATED_INITIALIZER SWIFT_DEPRECATED_OBJC("Swift initializer 'Popover.init(showHandler:dismissHandler:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
 - (void)showAsDialog:(UIView * _Nonnull)contentView SWIFT_DEPRECATED_OBJC("Swift method 'Popover.showAsDialog(_:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 - (void)showAsDialog:(UIView * _Nonnull)contentView inView:(UIView * _Nonnull)inView SWIFT_DEPRECATED_OBJC("Swift method 'Popover.showAsDialog(_:inView:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 - (void)show:(UIView * _Nonnull)contentView fromView:(UIView * _Nonnull)fromView SWIFT_DEPRECATED_OBJC("Swift method 'Popover.show(_:fromView:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
@@ -762,6 +764,7 @@ SWIFT_CLASS("_TtC7Popover7Popover")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithShowHandler:(void (^ _Nullable)(void))showHandler dismissHandler:(void (^ _Nullable)(void))dismissHandler OBJC_DESIGNATED_INITIALIZER SWIFT_DEPRECATED_OBJC("Swift initializer 'Popover.init(showHandler:dismissHandler:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
 - (void)showAsDialog:(UIView * _Nonnull)contentView SWIFT_DEPRECATED_OBJC("Swift method 'Popover.showAsDialog(_:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 - (void)showAsDialog:(UIView * _Nonnull)contentView inView:(UIView * _Nonnull)inView SWIFT_DEPRECATED_OBJC("Swift method 'Popover.showAsDialog(_:inView:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 - (void)show:(UIView * _Nonnull)contentView fromView:(UIView * _Nonnull)fromView SWIFT_DEPRECATED_OBJC("Swift method 'Popover.show(_:fromView:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
@@ -1022,6 +1025,7 @@ SWIFT_CLASS("_TtC7Popover7Popover")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithShowHandler:(void (^ _Nullable)(void))showHandler dismissHandler:(void (^ _Nullable)(void))dismissHandler OBJC_DESIGNATED_INITIALIZER SWIFT_DEPRECATED_OBJC("Swift initializer 'Popover.init(showHandler:dismissHandler:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
 - (void)showAsDialog:(UIView * _Nonnull)contentView SWIFT_DEPRECATED_OBJC("Swift method 'Popover.showAsDialog(_:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 - (void)showAsDialog:(UIView * _Nonnull)contentView inView:(UIView * _Nonnull)inView SWIFT_DEPRECATED_OBJC("Swift method 'Popover.showAsDialog(_:inView:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");
 - (void)show:(UIView * _Nonnull)contentView fromView:(UIView * _Nonnull)fromView SWIFT_DEPRECATED_OBJC("Swift method 'Popover.show(_:fromView:)' uses '@objc' inference deprecated in Swift 4; add '@objc' to provide an Objective-C entrypoint");

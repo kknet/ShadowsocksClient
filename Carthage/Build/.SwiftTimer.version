@@ -3,7 +3,7 @@
   "iOS" : [
     {
       "name" : "SwiftTimer",
-      "hash" : "49ecd413a089bf2b9bb3a7385442c0d0f3596fb0a15be60d64e7c25bd5d89c1e",
+      "hash" : "ac6c30c45b93d9b6fe17bd2b268a3b30a34d262195a6f9b79621785c57e002e7",
       "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
     }
   ]
