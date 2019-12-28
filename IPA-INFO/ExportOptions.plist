@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>compileBitcode</key>
-	<false/>
+	<true/>
 	<key>destination</key>
 	<string>export</string>
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://raw.githubusercontent.com/NingLi-iOSer/ShadowsocksClient/master/SSFree.ipa</string>
+		<string>https://raw.githubusercontent.com/NingLi-iOSer/ShadowsocksClient/master/IPA-INFO/manifest.plist</string>
 		<key>displayImageURL</key>
 		<string>https://github.com/NingLi-iOSer/ShadowsocksClient/raw/master/images/ss_logo@57.png</string>
 		<key>fullSizeImageURL</key>
