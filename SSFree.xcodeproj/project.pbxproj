@@ -86,7 +86,6 @@
 		27A8046D23A8CF7300DE6FED /* SSRouteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A8046C23A8CF7300DE6FED /* SSRouteModel.swift */; };
 		27A8047023A8D08300DE6FED /* SSEncryptionTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A8046E23A8D08300DE6FED /* SSEncryptionTypeCell.swift */; };
 		27A8047123A8D08300DE6FED /* SSEncryptionTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27A8046F23A8D08300DE6FED /* SSEncryptionTypeCell.xib */; };
-		27A9750323B705AE0080ED48 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 27A9750223B705AE0080ED48 /* index.html */; };
 		27D4AA6323B2F1C1005345F9 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275E346E235DAA4400413056 /* NetworkExtension.framework */; };
 /* End PBXBuildFile section */
 
@@ -204,7 +203,6 @@
 		27A8046C23A8CF7300DE6FED /* SSRouteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSRouteModel.swift; sourceTree = "<group>"; };
 		27A8046E23A8D08300DE6FED /* SSEncryptionTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSEncryptionTypeCell.swift; sourceTree = "<group>"; };
 		27A8046F23A8D08300DE6FED /* SSEncryptionTypeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SSEncryptionTypeCell.xib; sourceTree = "<group>"; };
-		27A9750223B705AE0080ED48 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -338,7 +336,6 @@
 				275E3450235DA97900413056 /* Assets.xcassets */,
 				275E3452235DA97900413056 /* LaunchScreen.storyboard */,
 				27A5127923B2F41000C028F5 /* Info.plist */,
-				27A9750223B705AE0080ED48 /* index.html */,
 			);
 			path = SSFree;
 			sourceTree = "<group>";
@@ -533,7 +530,6 @@
 				275D64FE235EF77C00C21081 /* animation.json in Resources */,
 				275E34A8235E891A00413056 /* NEKitRule.conf in Resources */,
 				27A8047123A8D08300DE6FED /* SSEncryptionTypeCell.xib in Resources */,
-				27A9750323B705AE0080ED48 /* index.html in Resources */,
 				275E3451235DA97900413056 /* Assets.xcassets in Resources */,
 				2788D18123A9B0A700AF2091 /* SSRouteCell.xib in Resources */,
 				275E344F235DA97600413056 /* Main.storyboard in Resources */,
