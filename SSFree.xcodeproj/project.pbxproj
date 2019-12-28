@@ -438,6 +438,7 @@
 				275E3442235DA97600413056 /* Resources */,
 				275E346B235DA9EB00413056 /* Embed App Extensions */,
 				2718A86B23B5B6210002A156 /* Embed Frameworks */,
+				27A9750123B6F0930080ED48 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -544,6 +545,41 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27A9750123B6F0930080ED48 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Popover.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CocoaAsyncSocket.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CocoaLumberjack.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CocoaLumberjackSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CommonCrypto.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Lottie.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/lwip.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/MMDB.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/NEKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Resolver.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Sodium.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftTimer.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/TrafficPolice.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/tun2socks.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Yaml.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		27301861235ECC9B00E00181 /* Sources */ = {
@@ -812,7 +848,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = SSFree/SSFree.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 898932UN9T;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -826,7 +862,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ssfree;
 				PRODUCT_NAME = SSFree;
@@ -845,7 +881,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = SSFree/SSFree.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 898932UN9T;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -859,7 +895,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ssfree;
 				PRODUCT_NAME = SSFree;
 				SWIFT_OBJC_BRIDGING_HEADER = "";

@@ -1,0 +1,11 @@
+framework module TrafficPolice {
+  umbrella header "TrafficPolice.h"
+
+  export *
+  module * { export * }
+}
+
+module TrafficPolice.Swift {
+    header "TrafficPolice-Swift.h"
+    requires objc
+}

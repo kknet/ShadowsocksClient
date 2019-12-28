@@ -3,109 +3,109 @@
     {
       "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "emizhifeijiiPhoneNotification_20pt@2x.png",
+      "filename" : "appiconiPhoneNotification_20pt@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "emizhifeijiiPhoneNotification_20pt@3x.png",
+      "filename" : "appiconiPhoneNotification_20pt@3x.png",
       "scale" : "3x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "emizhifeijiiPhoneSpootlight5_29pt@2x.png",
+      "filename" : "appiconiPhoneSpootlight5_29pt@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "emizhifeijiiPhoneSpootlight5_29pt@3x.png",
+      "filename" : "appiconiPhoneSpootlight5_29pt@3x.png",
       "scale" : "3x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "emizhifeijiiPhoneSpootlight7_40pt@2x.png",
+      "filename" : "appiconiPhoneSpootlight7_40pt@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "emizhifeijiiPhoneSpootlight7_40pt@3x.png",
+      "filename" : "appiconiPhoneSpootlight7_40pt@3x.png",
       "scale" : "3x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "emizhifeijiiPhoneApp_60pt@2x.png",
+      "filename" : "appiconiPhoneApp_60pt@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "emizhifeijiiPhoneApp_60pt@3x.png",
+      "filename" : "appiconiPhoneApp_60pt@3x.png",
       "scale" : "3x"
     },
     {
       "size" : "20x20",
       "idiom" : "ipad",
-      "filename" : "emizhifeijiiPadNotifications_20pt.png",
+      "filename" : "appiconiPadNotifications_20pt.png",
       "scale" : "1x"
     },
     {
       "size" : "20x20",
       "idiom" : "ipad",
-      "filename" : "emizhifeijiiPadNotifications_20pt@2x.png",
+      "filename" : "appiconiPadNotifications_20pt@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "emizhifeijiiPadSpootlight5_29pt.png",
+      "filename" : "appiconiPadSpootlight5_29pt.png",
       "scale" : "1x"
     },
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "emizhifeijiiPadSpootlight5_29pt@2x.png",
+      "filename" : "appiconiPadSpootlight5_29pt@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "ipad",
-      "filename" : "emizhifeijiiPadSpootlight7_40pt.png",
+      "filename" : "appiconiPadSpootlight7_40pt.png",
       "scale" : "1x"
     },
     {
       "size" : "40x40",
       "idiom" : "ipad",
-      "filename" : "emizhifeijiiPadSpootlight7_40pt@2x.png",
+      "filename" : "appiconiPadSpootlight7_40pt@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "emizhifeijiiPadApp_76pt.png",
+      "filename" : "appiconiPadApp_76pt.png",
       "scale" : "1x"
     },
     {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "emizhifeijiiPadApp_76pt@2x.png",
+      "filename" : "appiconiPadApp_76pt@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "83.5x83.5",
       "idiom" : "ipad",
-      "filename" : "emizhifeijiiPadProApp_83.5pt@2x.png",
+      "filename" : "appiconiPadProApp_83.5pt@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "1024x1024",
       "idiom" : "ios-marketing",
-      "filename" : "emizhifeijistore_1024pt.png",
+      "filename" : "appiconstore_1024pt.png",
       "scale" : "1x"
     }
   ],

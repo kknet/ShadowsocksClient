@@ -1,0 +1,11 @@
+framework module SwiftTimer {
+  umbrella header "SwiftTimer.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftTimer.Swift {
+    header "SwiftTimer-Swift.h"
+    requires objc
+}

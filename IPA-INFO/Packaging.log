@@ -1,0 +1,1035 @@
+2019-12-27 08:27:58 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7ff03dd26b00; archive(resolved)='<IDEArchive: 0x7ff03a6beae0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7ff0672a2610>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff04dd07660; teamID='898932UN9T', teamName='guangsheng wang', teamType='Individual', username='2890748352@qq.com', isFreeProvisioningTeam='0'>'>
+	Chain (13, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7ff03dd26b00; archive = '<IDEArchive: 0x7ff03a6beae0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff0672a2610>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff04dd07660; teamID='898932UN9T', teamName='guangsheng wang', teamType='Individual', username='2890748352@qq.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7ff03d3b9780; archive = '<IDEArchive: 0x7ff03a6beae0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff0672a2610>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff04dd07660; teamID='898932UN9T', teamName='guangsheng wang', teamType='Individual', username='2890748352@qq.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff03e64c0e0; archive = '<IDEArchive: 0x7ff03a6beae0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff0672a2610>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff04dd07660; teamID='898932UN9T', teamName='guangsheng wang', teamType='Individual', username='2890748352@qq.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff03d20b7b0; archive = '<IDEArchive: 0x7ff03a6beae0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff0672a2610>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff04dd07660; teamID='898932UN9T', teamName='guangsheng wang', teamType='Individual', username='2890748352@qq.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff06003b290; archive = '<IDEArchive: 0x7ff03a6beae0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff0672a2610>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff04dd07660; teamID='898932UN9T', teamName='guangsheng wang', teamType='Individual', username='2890748352@qq.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff03e41f060; archive = '<IDEArchive: 0x7ff03a6beae0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff0672a2610>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff04dd07660; teamID='898932UN9T', teamName='guangsheng wang', teamType='Individual', username='2890748352@qq.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff03a69bbb0; archive = '<IDEArchive: 0x7ff03a6beae0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff0672a2610>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff04dd07660; teamID='898932UN9T', teamName='guangsheng wang', teamType='Individual', username='2890748352@qq.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff03d5a7aa0; archive = '<IDEArchive: 0x7ff03a6beae0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff0672a2610>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff04dd07660; teamID='898932UN9T', teamName='guangsheng wang', teamType='Individual', username='2890748352@qq.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff03bebc1a0; archive = '<IDEArchive: 0x7ff03a6beae0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff0672a2610>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ff04dd07660; teamID='898932UN9T', teamName='guangsheng wang', teamType='Individual', username='2890748352@qq.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ff03e726fc0; archive = '<IDEArchive: 0x7ff03a6beae0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff0672a2610>', team='(null)'>
+	<IDEDistributionContext: 0x7ff0593f93f0; archive = '<IDEArchive: 0x7ff03a6beae0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff0672a2610>', team='(null)'>
+	<IDEDistributionContext: 0x7ff03d40ed80; archive = '<IDEArchive: 0x7ff03a6beae0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ff0672a2610>', team='(null)'>
+	<IDEDistributionContext: 0x7ff03ad33130; archive = '<IDEArchive: 0x7ff03a6beae0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7ff03dd26b00>
+2019-12-27 08:27:58 +0000  Processing step: IDEDistributionCreateDestRootStep
+2019-12-27 08:27:58 +0000  Processing step: IDEDistributionCopyItemStep
+2019-12-27 08:27:58 +0000  Running /usr/bin/ditto '-V' '/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app'
+2019-12-27 08:27:58 +0000  >>> Copying /Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app 
+2019-12-27 08:27:58 +0000  copying file ./_CodeSignature/CodeResources ... 
+2019-12-27 08:27:58 +0000  25642 bytes for ./_CodeSignature/CodeResources
+2019-12-27 08:27:58 +0000  copying file ./SSEncryptionTypeCell.nib ... 
+2019-12-27 08:27:58 +0000  3517 bytes for ./SSEncryptionTypeCell.nib
+copying file ./EncryptionType.plist ... 
+2019-12-27 08:27:58 +0000  144 bytes for ./EncryptionType.plist
+2019-12-27 08:27:58 +0000  copying file ./PlugIns/PacketTunnel.appex/_CodeSignature/CodeResources ... 
+2019-12-27 08:27:58 +0000  2040 bytes for ./PlugIns/PacketTunnel.appex/_CodeSignature/CodeResources
+2019-12-27 08:27:58 +0000  copying file ./PlugIns/PacketTunnel.appex/PacketTunnel ... 
+2019-12-27 08:27:58 +0000  115136 bytes for ./PlugIns/PacketTunnel.appex/PacketTunnel
+copying file ./PlugIns/PacketTunnel.appex/embedded.mobileprovision ... 
+2019-12-27 08:27:58 +0000  12947 bytes for ./PlugIns/PacketTunnel.appex/embedded.mobileprovision
+2019-12-27 08:27:58 +0000  copying file ./PlugIns/PacketTunnel.appex/Info.plist ... 
+2019-12-27 08:27:58 +0000  950 bytes for ./PlugIns/PacketTunnel.appex/Info.plist
+2019-12-27 08:27:58 +0000  copying file ./PlugIns/Ladder.appex/_CodeSignature/CodeResources ... 
+2019-12-27 08:27:58 +0000  3382 bytes for ./PlugIns/Ladder.appex/_CodeSignature/CodeResources
+2019-12-27 08:27:58 +0000  copying file ./PlugIns/Ladder.appex/Ladder ... 
+2019-12-27 08:27:58 +0000  112144 bytes for ./PlugIns/Ladder.appex/Ladder
+2019-12-27 08:27:58 +0000  copying file ./PlugIns/Ladder.appex/NEKitRule.conf ... 
+2019-12-27 08:27:58 +0000  2754 bytes for ./PlugIns/Ladder.appex/NEKitRule.conf
+2019-12-27 08:27:58 +0000  copying file ./PlugIns/Ladder.appex/Base.lproj/MainInterface.storyboardc/UIViewController-M4Y-Lb-cyx.nib ... 
+2019-12-27 08:27:58 +0000  1013 bytes for ./PlugIns/Ladder.appex/Base.lproj/MainInterface.storyboardc/UIViewController-M4Y-Lb-cyx.nib
+copying file ./PlugIns/Ladder.appex/Base.lproj/MainInterface.storyboardc/M4Y-Lb-cyx-view-S3S-Oj-5AN.nib ... 
+2019-12-27 08:27:58 +0000  5016 bytes for ./PlugIns/Ladder.appex/Base.lproj/MainInterface.storyboardc/M4Y-Lb-cyx-view-S3S-Oj-5AN.nib
+copying file ./PlugIns/Ladder.appex/Base.lproj/MainInterface.storyboardc/Info.plist ... 
+2019-12-27 08:27:58 +0000  258 bytes for ./PlugIns/Ladder.appex/Base.lproj/MainInterface.storyboardc/Info.plist
+2019-12-27 08:27:58 +0000  copying file ./PlugIns/Ladder.appex/Assets.car ... 
+2019-12-27 08:27:58 +0000  31167 bytes for ./PlugIns/Ladder.appex/Assets.car
+2019-12-27 08:27:58 +0000  copying file ./PlugIns/Ladder.appex/embedded.mobileprovision ... 
+2019-12-27 08:27:58 +0000  12935 bytes for ./PlugIns/Ladder.appex/embedded.mobileprovision
+copying file ./PlugIns/Ladder.appex/Info.plist ... 
+2019-12-27 08:27:58 +0000  968 bytes for ./PlugIns/Ladder.appex/Info.plist
+2019-12-27 08:27:58 +0000  copying file ./AppIcon60x60@2x.png ... 
+2019-12-27 08:27:58 +0000  4681 bytes for ./AppIcon60x60@2x.png
+copying file ./SSFree ... 
+2019-12-27 08:27:58 +0000  358688 bytes for ./SSFree
+copying file ./NEKitRule.conf ... 
+2019-12-27 08:27:58 +0000  2754 bytes for ./NEKitRule.conf
+2019-12-27 08:27:58 +0000  copying file ./Base.lproj/Main.storyboardc/UINavigationController-Kka-i7-HwP.nib ... 
+2019-12-27 08:27:58 +0000  2292 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-Kka-i7-HwP.nib
+2019-12-27 08:27:58 +0000  copying file ./Base.lproj/Main.storyboardc/mVS-mH-zkN-view-3e3-QF-X8S.nib ... 
+2019-12-27 08:27:58 +0000  3593 bytes for ./Base.lproj/Main.storyboardc/mVS-mH-zkN-view-3e3-QF-X8S.nib
+copying file ./Base.lproj/Main.storyboardc/eo6-Dr-hAn-view-fzl-pd-c74.nib ... 
+2019-12-27 08:27:58 +0000  3572 bytes for ./Base.lproj/Main.storyboardc/eo6-Dr-hAn-view-fzl-pd-c74.nib
+2019-12-27 08:27:58 +0000  copying file ./Base.lproj/Main.storyboardc/vNJ-Ju-6FR-view-iZ1-j9-K44.nib ... 
+2019-12-27 08:27:58 +0000  6151 bytes for ./Base.lproj/Main.storyboardc/vNJ-Ju-6FR-view-iZ1-j9-K44.nib
+copying file ./Base.lproj/Main.storyboardc/gcm-k1-gkO-view-f1c-xO-dzO.nib ... 
+2019-12-27 08:27:58 +0000  11156 bytes for ./Base.lproj/Main.storyboardc/gcm-k1-gkO-view-f1c-xO-dzO.nib
+copying file ./Base.lproj/Main.storyboardc/EncryptionType.nib ... 
+2019-12-27 08:27:58 +0000  1122 bytes for ./Base.lproj/Main.storyboardc/EncryptionType.nib
+2019-12-27 08:27:58 +0000  copying file ./Base.lproj/Main.storyboardc/Scan.nib ... 
+2019-12-27 08:27:58 +0000  1102 bytes for ./Base.lproj/Main.storyboardc/Scan.nib
+2019-12-27 08:27:58 +0000  copying file ./Base.lproj/Main.storyboardc/AddRoute.nib ... 
+2019-12-27 08:27:58 +0000  1399 bytes for ./Base.lproj/Main.storyboardc/AddRoute.nib
+copying file ./Base.lproj/Main.storyboardc/5Ug-VH-uae-view-4H3-Wm-Hio.nib ... 
+2019-12-27 08:27:58 +0000  10426 bytes for ./Base.lproj/Main.storyboardc/5Ug-VH-uae-view-4H3-Wm-Hio.nib
+2019-12-27 08:27:58 +0000  copying file ./Base.lproj/Main.storyboardc/pDK-Fq-qok-view-lw0-0G-C9v.nib ... 
+2019-12-27 08:27:58 +0000  2451 bytes for ./Base.lproj/Main.storyboardc/pDK-Fq-qok-view-lw0-0G-C9v.nib
+copying file ./Base.lproj/Main.storyboardc/EditRoute.nib ... 
+2019-12-27 08:27:58 +0000  1479 bytes for ./Base.lproj/Main.storyboardc/EditRoute.nib
+2019-12-27 08:27:58 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2019-12-27 08:27:58 +0000  413 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+copying file ./Base.lproj/Main.storyboardc/RouteList.nib ... 
+2019-12-27 08:27:58 +0000  1106 bytes for ./Base.lproj/Main.storyboardc/RouteList.nib
+2019-12-27 08:27:58 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-12-27 08:27:58 +0000  1197 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2019-12-27 08:27:58 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-12-27 08:27:58 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2019-12-27 08:27:58 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2019-12-27 08:27:58 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2019-12-27 08:27:58 +0000  copying file ./animation.json ... 
+2019-12-27 08:27:58 +0000  22076 bytes for ./animation.json
+2019-12-27 08:27:58 +0000  copying file ./Assets.car ... 
+2019-12-27 08:27:58 +0000  205680 bytes for ./Assets.car
+2019-12-27 08:27:58 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2019-12-27 08:27:58 +0000  5723 bytes for ./AppIcon76x76@2x~ipad.png
+2019-12-27 08:27:58 +0000  copying file ./scan.m4a ... 
+2019-12-27 08:27:58 +0000  10164 bytes for ./scan.m4a
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/NEKit.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:27:58 +0000  1798 bytes for ./Frameworks/NEKit.framework/_CodeSignature/CodeResources
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/NEKit.framework/NEKit ... 
+2019-12-27 08:27:58 +0000  4135680 bytes for ./Frameworks/NEKit.framework/NEKit
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/NEKit.framework/Info.plist ... 
+2019-12-27 08:27:58 +0000  1417 bytes for ./Frameworks/NEKit.framework/Info.plist
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/tun2socks.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:27:58 +0000  1798 bytes for ./Frameworks/tun2socks.framework/_CodeSignature/CodeResources
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/tun2socks.framework/tun2socks ... 
+2019-12-27 08:27:58 +0000  298784 bytes for ./Frameworks/tun2socks.framework/tun2socks
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/tun2socks.framework/Info.plist ... 
+2019-12-27 08:27:58 +0000  740 bytes for ./Frameworks/tun2socks.framework/Info.plist
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/Resolver.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:27:58 +0000  1798 bytes for ./Frameworks/Resolver.framework/_CodeSignature/CodeResources
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/Resolver.framework/Info.plist ... 
+2019-12-27 08:27:58 +0000  709 bytes for ./Frameworks/Resolver.framework/Info.plist
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/Resolver.framework/Resolver ... 
+2019-12-27 08:27:58 +0000  297424 bytes for ./Frameworks/Resolver.framework/Resolver
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/CocoaLumberjack.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:27:58 +0000  1798 bytes for ./Frameworks/CocoaLumberjack.framework/_CodeSignature/CodeResources
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/CocoaLumberjack.framework/CocoaLumberjack ... 
+2019-12-27 08:27:58 +0000  651136 bytes for ./Frameworks/CocoaLumberjack.framework/CocoaLumberjack
+copying file ./Frameworks/CocoaLumberjack.framework/Info.plist ... 
+2019-12-27 08:27:58 +0000  755 bytes for ./Frameworks/CocoaLumberjack.framework/Info.plist
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/CocoaAsyncSocket.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:27:58 +0000  1798 bytes for ./Frameworks/CocoaAsyncSocket.framework/_CodeSignature/CodeResources
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket ... 
+2019-12-27 08:27:58 +0000  978272 bytes for ./Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/CocoaAsyncSocket.framework/Info.plist ... 
+2019-12-27 08:27:58 +0000  757 bytes for ./Frameworks/CocoaAsyncSocket.framework/Info.plist
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/Popover.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:27:58 +0000  1798 bytes for ./Frameworks/Popover.framework/_CodeSignature/CodeResources
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/Popover.framework/Popover ... 
+2019-12-27 08:27:58 +0000  427408 bytes for ./Frameworks/Popover.framework/Popover
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/Popover.framework/Info.plist ... 
+2019-12-27 08:27:58 +0000  730 bytes for ./Frameworks/Popover.framework/Info.plist
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/CommonCrypto.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:27:58 +0000  1798 bytes for ./Frameworks/CommonCrypto.framework/_CodeSignature/CodeResources
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/CommonCrypto.framework/CommonCrypto ... 
+2019-12-27 08:27:58 +0000  134592 bytes for ./Frameworks/CommonCrypto.framework/CommonCrypto
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/CommonCrypto.framework/Info.plist ... 
+2019-12-27 08:27:58 +0000  896 bytes for ./Frameworks/CommonCrypto.framework/Info.plist
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/CocoaLumberjackSwift.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:27:58 +0000  1798 bytes for ./Frameworks/CocoaLumberjackSwift.framework/_CodeSignature/CodeResources
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/CocoaLumberjackSwift.framework/CocoaLumberjackSwift ... 
+2019-12-27 08:27:58 +0000  294736 bytes for ./Frameworks/CocoaLumberjackSwift.framework/CocoaLumberjackSwift
+copying file ./Frameworks/CocoaLumberjackSwift.framework/Info.plist ... 
+2019-12-27 08:27:58 +0000  765 bytes for ./Frameworks/CocoaLumberjackSwift.framework/Info.plist
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/lwip.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:27:58 +0000  1798 bytes for ./Frameworks/lwip.framework/_CodeSignature/CodeResources
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/lwip.framework/lwip ... 
+2019-12-27 08:27:58 +0000  290048 bytes for ./Frameworks/lwip.framework/lwip
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/lwip.framework/Info.plist ... 
+2019-12-27 08:27:58 +0000  730 bytes for ./Frameworks/lwip.framework/Info.plist
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/TrafficPolice.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:27:58 +0000  1798 bytes for ./Frameworks/TrafficPolice.framework/_CodeSignature/CodeResources
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/TrafficPolice.framework/TrafficPolice ... 
+2019-12-27 08:27:58 +0000  329648 bytes for ./Frameworks/TrafficPolice.framework/TrafficPolice
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/TrafficPolice.framework/Info.plist ... 
+2019-12-27 08:27:58 +0000  714 bytes for ./Frameworks/TrafficPolice.framework/Info.plist
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/Sodium.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:27:58 +0000  1798 bytes for ./Frameworks/Sodium.framework/_CodeSignature/CodeResources
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/Sodium.framework/Sodium ... 
+2019-12-27 08:27:58 +0000  510160 bytes for ./Frameworks/Sodium.framework/Sodium
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/Sodium.framework/Info.plist ... 
+2019-12-27 08:27:58 +0000  728 bytes for ./Frameworks/Sodium.framework/Info.plist
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/Yaml.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:27:58 +0000  1798 bytes for ./Frameworks/Yaml.framework/_CodeSignature/CodeResources
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/Yaml.framework/Yaml ... 
+2019-12-27 08:27:58 +0000  716320 bytes for ./Frameworks/Yaml.framework/Yaml
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/Yaml.framework/Info.plist ... 
+2019-12-27 08:27:58 +0000  723 bytes for ./Frameworks/Yaml.framework/Info.plist
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/Lottie.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:27:58 +0000  1798 bytes for ./Frameworks/Lottie.framework/_CodeSignature/CodeResources
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/Lottie.framework/Lottie ... 
+2019-12-27 08:27:58 +0000  4697248 bytes for ./Frameworks/Lottie.framework/Lottie
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/Lottie.framework/Info.plist ... 
+2019-12-27 08:27:58 +0000  701 bytes for ./Frameworks/Lottie.framework/Info.plist
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/SwiftTimer.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:27:58 +0000  1798 bytes for ./Frameworks/SwiftTimer.framework/_CodeSignature/CodeResources
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/SwiftTimer.framework/SwiftTimer ... 
+2019-12-27 08:27:58 +0000  293856 bytes for ./Frameworks/SwiftTimer.framework/SwiftTimer
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/SwiftTimer.framework/Info.plist ... 
+2019-12-27 08:27:58 +0000  704 bytes for ./Frameworks/SwiftTimer.framework/Info.plist
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/MMDB.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:27:58 +0000  2106 bytes for ./Frameworks/MMDB.framework/_CodeSignature/CodeResources
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/MMDB.framework/GeoLite2-Country.mmdb ... 
+2019-12-27 08:27:58 +0000  4033189 bytes for ./Frameworks/MMDB.framework/GeoLite2-Country.mmdb
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/MMDB.framework/MMDB ... 
+2019-12-27 08:27:58 +0000  301312 bytes for ./Frameworks/MMDB.framework/MMDB
+2019-12-27 08:27:58 +0000  copying file ./Frameworks/MMDB.framework/Info.plist ... 
+2019-12-27 08:27:58 +0000  728 bytes for ./Frameworks/MMDB.framework/Info.plist
+2019-12-27 08:27:58 +0000  copying file ./SSRouteCell.nib ... 
+2019-12-27 08:27:58 +0000  3528 bytes for ./SSRouteCell.nib
+2019-12-27 08:27:58 +0000  copying file ./embedded.mobileprovision ... 
+2019-12-27 08:27:58 +0000  12908 bytes for ./embedded.mobileprovision
+2019-12-27 08:27:58 +0000  copying file ./Info.plist ... 
+2019-12-27 08:27:58 +0000  1677 bytes for ./Info.plist
+2019-12-27 08:27:58 +0000  copying file ./PkgInfo ... 
+2019-12-27 08:27:58 +0000  8 bytes for ./PkgInfo
+2019-12-27 08:27:58 +0000  /usr/bin/ditto exited with 0
+2019-12-27 08:27:58 +0000  Processing step: IDEDistributionEmbedProfileStep
+2019-12-27 08:27:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff03dba4440; bundleID='com.robbiehanson.CocoaAsyncSocket', path='<DVTFilePath:0x7ff03e2e8b30:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaAsyncSocket.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03bb509d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.robbiehanson.CocoaAsyncSocket', executablePath='<DVTFilePath:0x7ff058dc7080:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff03e5c4f60; bundleID='com.deusty.CocoaLumberjack', path='<DVTFilePath:0x7ff03e1a6910:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaLumberjack.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03dde2790; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.deusty.CocoaLumberjack', executablePath='<DVTFilePath:0x7ff03da3d4a0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaLumberjack.framework/CocoaLumberjack'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff03d628420; bundleID='com.deusty.CocoaLumberjackSwift', path='<DVTFilePath:0x7ff03e155ca0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaLumberjackSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff0599d8b80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff03e7f8bf0; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.deusty.CocoaLumberjackSwift', executablePath='<DVTFilePath:0x7ff03b97f390:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaLumberjackSwift.framework/CocoaLumberjackSwift'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff058c5ecb0; bundleID='com.samsoffes.commoncrypto', path='<DVTFilePath:0x7ff03e11cea0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CommonCrypto.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03d77f700; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.samsoffes.commoncrypto', executablePath='<DVTFilePath:0x7ff03e1b9c60:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CommonCrypto.framework/CommonCrypto'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff03a755c40; bundleID='com.airbnb.Lottie-iOS', path='<DVTFilePath:0x7ff0595f7d90:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Lottie.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e9b5e30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.airbnb.Lottie-iOS', executablePath='<DVTFilePath:0x7ff03e376e30:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Lottie.framework/Lottie'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff03e72c400; bundleID='com.lexrus.MMDB-iOS', path='<DVTFilePath:0x7ff0579e7cb0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/MMDB.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03dff1680; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.lexrus.MMDB-iOS', executablePath='<DVTFilePath:0x7ff03e498170:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/MMDB.framework/MMDB'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff03dd02500; bundleID='me.zhuhaow.NEKit', path='<DVTFilePath:0x7ff03d34b0f0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/NEKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e16f2b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.NEKit', executablePath='<DVTFilePath:0x7ff03d311d30:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/NEKit.framework/NEKit'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff03e562140; bundleID='dk.simonbs.Popover', path='<DVTFilePath:0x7ff03e13f980:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Popover.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e1c4050; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='dk.simonbs.Popover', executablePath='<DVTFilePath:0x7ff03ddd99f0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Popover.framework/Popover'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff03e3103c0; bundleID='me.zhuhaow.ios.Resolver-iOS', path='<DVTFilePath:0x7ff03e2ebcc0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Resolver.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e9226a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.ios.Resolver-iOS', executablePath='<DVTFilePath:0x7ff03b9c0670:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Resolver.framework/Resolver'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff03e43b220; bundleID='me.zhuhaow.Sodium', path='<DVTFilePath:0x7ff056bca0e0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Sodium.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff058c441d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff059e55130; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.Sodium', executablePath='<DVTFilePath:0x7ff03be8ad10:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Sodium.framework/Sodium'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff03e7a6ef0; bundleID='mango.SwiftTimer-iOS', path='<DVTFilePath:0x7ff04f05fc40:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/SwiftTimer.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e39f830; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='mango.SwiftTimer-iOS', executablePath='<DVTFilePath:0x7ff03e3744f0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/SwiftTimer.framework/SwiftTimer'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff03e178dd0; bundleID='com.anotheren.TrafficPolice', path='<DVTFilePath:0x7ff04f0eeb50:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/TrafficPolice.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03a999d80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.anotheren.TrafficPolice', executablePath='<DVTFilePath:0x7ff058c7bbd0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/TrafficPolice.framework/TrafficPolice'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff03e091060; bundleID='behrang.Yaml', path='<DVTFilePath:0x7ff03e519600:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Yaml.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03bb35f70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='behrang.Yaml', executablePath='<DVTFilePath:0x7ff03d32daa0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Yaml.framework/Yaml'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff03b9f7250; bundleID='me.zhuhaow.ios.lwip', path='<DVTFilePath:0x7ff03d4ad020:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/lwip.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e71f800; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.ios.lwip', executablePath='<DVTFilePath:0x7ff059a093d0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/lwip.framework/lwip'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping profile for item: <IDEDistributionItem: 0x7ff03e3e1f40; bundleID='me.zhuhaow.ios.tun2socks', path='<DVTFilePath:0x7ff03e112740:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/tun2socks.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03b921580; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.ios.tun2socks', executablePath='<DVTFilePath:0x7ff03afe87c0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/tun2socks.framework/tun2socks'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2019-12-27 08:27:58 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-12-27 08:27:58 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2019-12-27 08:27:58 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-12-27 08:27:58 +0000  Processing step: IDEDistributionSymbolsStep
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-12-27 08:27:58 +0000  Processing step: IDEDistributionAppThinningStep
+2019-12-27 08:27:58 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2019-12-27 08:27:58 +0000  Processing step: IDEDistributionArchThinningStep
+2019-12-27 08:27:58 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket' '-verify_arch' 'arm64e'
+2019-12-27 08:27:58 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 08:27:58 +0000  Skipping architecture thinning for item "CocoaAsyncSocket" because arch "arm64e" wasn't found
+2019-12-27 08:27:58 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/CocoaLumberjack.framework/CocoaLumberjack' '-verify_arch' 'arm64e'
+2019-12-27 08:27:58 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 08:27:58 +0000  Skipping architecture thinning for item "CocoaLumberjack" because arch "arm64e" wasn't found
+2019-12-27 08:27:58 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/CocoaLumberjackSwift.framework/CocoaLumberjackSwift' '-verify_arch' 'arm64e'
+2019-12-27 08:27:58 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 08:27:58 +0000  Skipping architecture thinning for item "CocoaLumberjackSwift" because arch "arm64e" wasn't found
+2019-12-27 08:27:58 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/CommonCrypto.framework/CommonCrypto' '-verify_arch' 'arm64e'
+2019-12-27 08:27:58 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 08:27:58 +0000  Skipping architecture thinning for item "CommonCrypto" because arch "arm64e" wasn't found
+2019-12-27 08:27:58 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Lottie.framework/Lottie' '-verify_arch' 'arm64e'
+2019-12-27 08:27:58 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 08:27:58 +0000  Skipping architecture thinning for item "Lottie" because arch "arm64e" wasn't found
+2019-12-27 08:27:58 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/MMDB.framework/MMDB' '-verify_arch' 'arm64e'
+2019-12-27 08:27:58 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 08:27:58 +0000  Skipping architecture thinning for item "MMDB" because arch "arm64e" wasn't found
+2019-12-27 08:27:58 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/NEKit.framework/NEKit' '-verify_arch' 'arm64e'
+2019-12-27 08:27:58 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 08:27:58 +0000  Skipping architecture thinning for item "NEKit" because arch "arm64e" wasn't found
+2019-12-27 08:27:58 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Popover.framework/Popover' '-verify_arch' 'arm64e'
+2019-12-27 08:27:58 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 08:27:58 +0000  Skipping architecture thinning for item "Popover" because arch "arm64e" wasn't found
+2019-12-27 08:27:58 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Resolver.framework/Resolver' '-verify_arch' 'arm64e'
+2019-12-27 08:27:58 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 08:27:58 +0000  Skipping architecture thinning for item "Resolver" because arch "arm64e" wasn't found
+2019-12-27 08:27:58 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Sodium.framework/Sodium' '-verify_arch' 'arm64e'
+2019-12-27 08:27:58 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 08:27:58 +0000  Skipping architecture thinning for item "Sodium" because arch "arm64e" wasn't found
+2019-12-27 08:27:58 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/SwiftTimer.framework/SwiftTimer' '-verify_arch' 'arm64e'
+2019-12-27 08:27:58 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 08:27:58 +0000  Skipping architecture thinning for item "SwiftTimer" because arch "arm64e" wasn't found
+2019-12-27 08:27:58 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/TrafficPolice.framework/TrafficPolice' '-verify_arch' 'arm64e'
+2019-12-27 08:27:58 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 08:27:58 +0000  Skipping architecture thinning for item "TrafficPolice" because arch "arm64e" wasn't found
+2019-12-27 08:27:58 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Yaml.framework/Yaml' '-verify_arch' 'arm64e'
+2019-12-27 08:27:58 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 08:27:58 +0000  Skipping architecture thinning for item "Yaml" because arch "arm64e" wasn't found
+2019-12-27 08:27:58 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/lwip.framework/lwip' '-verify_arch' 'arm64e'
+2019-12-27 08:27:58 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 08:27:58 +0000  Skipping architecture thinning for item "lwip" because arch "arm64e" wasn't found
+2019-12-27 08:27:58 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/tun2socks.framework/tun2socks' '-verify_arch' 'arm64e'
+2019-12-27 08:27:58 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 08:27:58 +0000  Skipping architecture thinning for item "tun2socks" because arch "arm64e" wasn't found
+2019-12-27 08:27:58 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/PlugIns/Ladder.appex/Ladder' '-verify_arch' 'arm64e'
+2019-12-27 08:27:58 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 08:27:58 +0000  Skipping architecture thinning for item "Ladder" because arch "arm64e" wasn't found
+2019-12-27 08:27:58 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/PlugIns/PacketTunnel.appex/PacketTunnel' '-verify_arch' 'arm64e'
+2019-12-27 08:27:58 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 08:27:58 +0000  Skipping architecture thinning for item "PacketTunnel" because arch "arm64e" wasn't found
+2019-12-27 08:27:58 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/SSFree' '-verify_arch' 'arm64e'
+2019-12-27 08:27:58 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-27 08:27:58 +0000  Skipping architecture thinning for item "SSFree" because arch "arm64e" wasn't found
+2019-12-27 08:27:58 +0000  Processing step: IDEDistributionODRStep
+2019-12-27 08:27:58 +0000  Processing step: IDEDistributionStripXattrsStep
+2019-12-27 08:27:58 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff03dba4440; bundleID='com.robbiehanson.CocoaAsyncSocket', path='<DVTFilePath:0x7ff03e2e8b30:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaAsyncSocket.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03bb509d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff059499250; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.robbiehanson.CocoaAsyncSocket', executablePath='<DVTFilePath:0x7ff058dc7080:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff03e5c4f60; bundleID='com.deusty.CocoaLumberjack', path='<DVTFilePath:0x7ff03e1a6910:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaLumberjack.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03dde2790; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff059499250; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.deusty.CocoaLumberjack', executablePath='<DVTFilePath:0x7ff03da3d4a0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaLumberjack.framework/CocoaLumberjack'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff03d628420; bundleID='com.deusty.CocoaLumberjackSwift', path='<DVTFilePath:0x7ff03e155ca0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaLumberjackSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff0599d8b80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff03e763470; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.deusty.CocoaLumberjackSwift', executablePath='<DVTFilePath:0x7ff03b97f390:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaLumberjackSwift.framework/CocoaLumberjackSwift'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff058c5ecb0; bundleID='com.samsoffes.commoncrypto', path='<DVTFilePath:0x7ff03e11cea0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CommonCrypto.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03d77f700; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff059499250; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.samsoffes.commoncrypto', executablePath='<DVTFilePath:0x7ff03e1b9c60:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CommonCrypto.framework/CommonCrypto'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff03a755c40; bundleID='com.airbnb.Lottie-iOS', path='<DVTFilePath:0x7ff0595f7d90:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Lottie.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e9b5e30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff059499250; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.airbnb.Lottie-iOS', executablePath='<DVTFilePath:0x7ff03e376e30:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Lottie.framework/Lottie'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff03e72c400; bundleID='com.lexrus.MMDB-iOS', path='<DVTFilePath:0x7ff0579e7cb0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/MMDB.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03dff1680; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff059499250; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.lexrus.MMDB-iOS', executablePath='<DVTFilePath:0x7ff03e498170:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/MMDB.framework/MMDB'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff03dd02500; bundleID='me.zhuhaow.NEKit', path='<DVTFilePath:0x7ff03d34b0f0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/NEKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e16f2b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff04b1ee940; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.NEKit', executablePath='<DVTFilePath:0x7ff03d311d30:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/NEKit.framework/NEKit'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff03e562140; bundleID='dk.simonbs.Popover', path='<DVTFilePath:0x7ff03e13f980:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Popover.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e1c4050; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff059499250; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='dk.simonbs.Popover', executablePath='<DVTFilePath:0x7ff03ddd99f0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Popover.framework/Popover'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff03e3103c0; bundleID='me.zhuhaow.ios.Resolver-iOS', path='<DVTFilePath:0x7ff03e2ebcc0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Resolver.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e9226a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff059499250; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.ios.Resolver-iOS', executablePath='<DVTFilePath:0x7ff03b9c0670:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Resolver.framework/Resolver'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff03e43b220; bundleID='me.zhuhaow.Sodium', path='<DVTFilePath:0x7ff056bca0e0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Sodium.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff058c441d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff059499250; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.Sodium', executablePath='<DVTFilePath:0x7ff03be8ad10:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Sodium.framework/Sodium'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff03e7a6ef0; bundleID='mango.SwiftTimer-iOS', path='<DVTFilePath:0x7ff04f05fc40:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/SwiftTimer.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e39f830; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff03e763470; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='mango.SwiftTimer-iOS', executablePath='<DVTFilePath:0x7ff03e3744f0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/SwiftTimer.framework/SwiftTimer'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff03e178dd0; bundleID='com.anotheren.TrafficPolice', path='<DVTFilePath:0x7ff04f0eeb50:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/TrafficPolice.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03a999d80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff059499250; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.anotheren.TrafficPolice', executablePath='<DVTFilePath:0x7ff058c7bbd0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/TrafficPolice.framework/TrafficPolice'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff03e091060; bundleID='behrang.Yaml', path='<DVTFilePath:0x7ff03e519600:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Yaml.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03bb35f70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff059499250; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='behrang.Yaml', executablePath='<DVTFilePath:0x7ff03d32daa0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Yaml.framework/Yaml'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff03b9f7250; bundleID='me.zhuhaow.ios.lwip', path='<DVTFilePath:0x7ff03d4ad020:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/lwip.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e71f800; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff03e763470; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.ios.lwip', executablePath='<DVTFilePath:0x7ff059a093d0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/lwip.framework/lwip'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff03e3e1f40; bundleID='me.zhuhaow.ios.tun2socks', path='<DVTFilePath:0x7ff03e112740:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/tun2socks.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03b921580; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff03e726b20; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.ios.tun2socks', executablePath='<DVTFilePath:0x7ff03afe87c0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/tun2socks.framework/tun2socks'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff03e923850; bundleID='com.ssfree.SSWidget', path='<DVTFilePath:0x7ff03db47960:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/PlugIns/Ladder.appex'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff05a2037c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff059499250; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='{
+    "application-identifier" = "898932UN9T.com.ssfree.SSWidget";
+    "com.apple.developer.networking.networkextension" =     (
+        "app-proxy-provider",
+        "content-filter-provider",
+        "packet-tunnel-provider"
+    );
+    "com.apple.developer.networking.vpn.api" =     (
+        "allow-vpn"
+    );
+    "com.apple.developer.team-identifier" = 898932UN9T;
+    "com.apple.security.application-groups" =     (
+        "group.com.ssfree"
+    );
+    "get-task-allow" = 1;
+}', teamID='898932UN9T', identifier='com.ssfree.SSWidget', executablePath='<DVTFilePath:0x7ff03d88d020:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/PlugIns/Ladder.appex/Ladder'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7ff056b83050; bundleID='com.ssfree.PacketTunnel', path='<DVTFilePath:0x7ff03d54af40:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/PlugIns/PacketTunnel.appex'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e45b920; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff059499250; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='{
+    "application-identifier" = "898932UN9T.com.ssfree.PacketTunnel";
+    "com.apple.developer.networking.networkextension" =     (
+        "app-proxy-provider",
+        "content-filter-provider",
+        "packet-tunnel-provider"
+    );
+    "com.apple.developer.networking.vpn.api" =     (
+        "allow-vpn"
+    );
+    "com.apple.developer.team-identifier" = 898932UN9T;
+    "com.apple.security.application-groups" =     (
+        "group.com.ssfree"
+    );
+    "get-task-allow" = 1;
+}', teamID='898932UN9T', identifier='com.ssfree.PacketTunnel', executablePath='<DVTFilePath:0x7ff03bfba170:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/PlugIns/PacketTunnel.appex/PacketTunnel'>', hardenedRuntime='0'>'>
+2019-12-27 08:27:58 +0000  Running /usr/bin/xattr '-crs' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app'
+2019-12-27 08:27:59 +0000  /usr/bin/xattr exited with 0
+2019-12-27 08:27:59 +0000  Processing step: IDEDistributionCodesignStep
+2019-12-27 08:27:59 +0000  Entitlements for <IDEDistributionItem: 0x7ff03dba4440; bundleID='com.robbiehanson.CocoaAsyncSocket', path='<DVTFilePath:0x7ff03e2e8b30:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaAsyncSocket.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03bb509d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff059499250; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.robbiehanson.CocoaAsyncSocket', executablePath='<DVTFilePath:0x7ff058dc7080:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 08:27:59 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff03dba4440; bundleID='com.robbiehanson.CocoaAsyncSocket', path='<DVTFilePath:0x7ff03e2e8b30:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaAsyncSocket.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03bb509d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff03df4bdc0; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.robbiehanson.CocoaAsyncSocket', executablePath='<DVTFilePath:0x7ff058dc7080:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket'>', hardenedRuntime='0'>'> to: /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~8nZ2yE
+2019-12-27 08:27:59 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '182C0B3ACEEE9699800D22447AA10B2DD27F8639' '--entitlements' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~8nZ2yE' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/CocoaAsyncSocket.framework'
+2019-12-27 08:27:59 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/CocoaAsyncSocket.framework: replacing existing signature
+2019-12-27 08:27:59 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/CocoaAsyncSocket.framework: signed bundle with Mach-O universal (armv7 arm64) [com.robbiehanson.CocoaAsyncSocket]
+2019-12-27 08:27:59 +0000  /usr/bin/codesign exited with 0
+2019-12-27 08:27:59 +0000  Entitlements for <IDEDistributionItem: 0x7ff03e5c4f60; bundleID='com.deusty.CocoaLumberjack', path='<DVTFilePath:0x7ff03e1a6910:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaLumberjack.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03dde2790; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff03e763470; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.deusty.CocoaLumberjack', executablePath='<DVTFilePath:0x7ff03da3d4a0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaLumberjack.framework/CocoaLumberjack'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 08:27:59 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff03e5c4f60; bundleID='com.deusty.CocoaLumberjack', path='<DVTFilePath:0x7ff03e1a6910:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaLumberjack.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03dde2790; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.deusty.CocoaLumberjack', executablePath='<DVTFilePath:0x7ff03da3d4a0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaLumberjack.framework/CocoaLumberjack'>', hardenedRuntime='0'>'> to: /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~zGi4D8
+2019-12-27 08:27:59 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '182C0B3ACEEE9699800D22447AA10B2DD27F8639' '--entitlements' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~zGi4D8' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/CocoaLumberjack.framework'
+2019-12-27 08:27:59 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/CocoaLumberjack.framework: replacing existing signature
+2019-12-27 08:27:59 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/CocoaLumberjack.framework: signed bundle with Mach-O universal (armv7 arm64) [com.deusty.CocoaLumberjack]
+2019-12-27 08:27:59 +0000  /usr/bin/codesign exited with 0
+2019-12-27 08:27:59 +0000  Entitlements for <IDEDistributionItem: 0x7ff03d628420; bundleID='com.deusty.CocoaLumberjackSwift', path='<DVTFilePath:0x7ff03e155ca0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaLumberjackSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff0599d8b80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff03e763470; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.deusty.CocoaLumberjackSwift', executablePath='<DVTFilePath:0x7ff03b97f390:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaLumberjackSwift.framework/CocoaLumberjackSwift'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 08:27:59 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff03d628420; bundleID='com.deusty.CocoaLumberjackSwift', path='<DVTFilePath:0x7ff03e155ca0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaLumberjackSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff0599d8b80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.deusty.CocoaLumberjackSwift', executablePath='<DVTFilePath:0x7ff03b97f390:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CocoaLumberjackSwift.framework/CocoaLumberjackSwift'>', hardenedRuntime='0'>'> to: /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~iQJmPM
+2019-12-27 08:27:59 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '182C0B3ACEEE9699800D22447AA10B2DD27F8639' '--entitlements' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~iQJmPM' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/CocoaLumberjackSwift.framework'
+2019-12-27 08:27:59 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/CocoaLumberjackSwift.framework: replacing existing signature
+2019-12-27 08:27:59 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/CocoaLumberjackSwift.framework: signed bundle with Mach-O universal (armv7 arm64) [com.deusty.CocoaLumberjackSwift]
+2019-12-27 08:27:59 +0000  /usr/bin/codesign exited with 0
+2019-12-27 08:27:59 +0000  
+2019-12-27 08:27:59 +0000  Entitlements for <IDEDistributionItem: 0x7ff058c5ecb0; bundleID='com.samsoffes.commoncrypto', path='<DVTFilePath:0x7ff03e11cea0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CommonCrypto.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03d77f700; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff059499250; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.samsoffes.commoncrypto', executablePath='<DVTFilePath:0x7ff03e1b9c60:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CommonCrypto.framework/CommonCrypto'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 08:27:59 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff058c5ecb0; bundleID='com.samsoffes.commoncrypto', path='<DVTFilePath:0x7ff03e11cea0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CommonCrypto.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03d77f700; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff03e726b20; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.samsoffes.commoncrypto', executablePath='<DVTFilePath:0x7ff03e1b9c60:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/CommonCrypto.framework/CommonCrypto'>', hardenedRuntime='0'>'> to: /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~CWhwhH
+2019-12-27 08:27:59 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '182C0B3ACEEE9699800D22447AA10B2DD27F8639' '--entitlements' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~CWhwhH' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/CommonCrypto.framework'
+2019-12-27 08:27:59 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/CommonCrypto.framework: replacing existing signature
+2019-12-27 08:27:59 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/CommonCrypto.framework: signed bundle with Mach-O universal (armv7 arm64) [com.samsoffes.commoncrypto]
+2019-12-27 08:27:59 +0000  /usr/bin/codesign exited with 0
+2019-12-27 08:27:59 +0000  Entitlements for <IDEDistributionItem: 0x7ff03a755c40; bundleID='com.airbnb.Lottie-iOS', path='<DVTFilePath:0x7ff0595f7d90:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Lottie.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e9b5e30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff059499250; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.airbnb.Lottie-iOS', executablePath='<DVTFilePath:0x7ff03e376e30:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Lottie.framework/Lottie'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 08:27:59 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff03a755c40; bundleID='com.airbnb.Lottie-iOS', path='<DVTFilePath:0x7ff0595f7d90:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Lottie.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e9b5e30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff051ac69c0; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.airbnb.Lottie-iOS', executablePath='<DVTFilePath:0x7ff03e376e30:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Lottie.framework/Lottie'>', hardenedRuntime='0'>'> to: /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~F4PTIh
+2019-12-27 08:27:59 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '182C0B3ACEEE9699800D22447AA10B2DD27F8639' '--entitlements' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~F4PTIh' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Lottie.framework'
+2019-12-27 08:27:59 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Lottie.framework: replacing existing signature
+2019-12-27 08:27:59 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Lottie.framework: signed bundle with Mach-O universal (armv7 arm64) [com.airbnb.Lottie-iOS]
+2019-12-27 08:27:59 +0000  /usr/bin/codesign exited with 0
+2019-12-27 08:27:59 +0000  Entitlements for <IDEDistributionItem: 0x7ff03e72c400; bundleID='com.lexrus.MMDB-iOS', path='<DVTFilePath:0x7ff0579e7cb0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/MMDB.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03dff1680; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff03e7f8bf0; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.lexrus.MMDB-iOS', executablePath='<DVTFilePath:0x7ff03e498170:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/MMDB.framework/MMDB'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 08:27:59 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff03e72c400; bundleID='com.lexrus.MMDB-iOS', path='<DVTFilePath:0x7ff0579e7cb0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/MMDB.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03dff1680; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff03e763470; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.lexrus.MMDB-iOS', executablePath='<DVTFilePath:0x7ff03e498170:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/MMDB.framework/MMDB'>', hardenedRuntime='0'>'> to: /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~OqpGlz
+2019-12-27 08:27:59 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '182C0B3ACEEE9699800D22447AA10B2DD27F8639' '--entitlements' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~OqpGlz' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/MMDB.framework'
+2019-12-27 08:27:59 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/MMDB.framework: replacing existing signature
+2019-12-27 08:27:59 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/MMDB.framework: signed bundle with Mach-O universal (armv7 arm64) [com.lexrus.MMDB-iOS]
+2019-12-27 08:27:59 +0000  /usr/bin/codesign exited with 0
+2019-12-27 08:27:59 +0000  Entitlements for <IDEDistributionItem: 0x7ff03dd02500; bundleID='me.zhuhaow.NEKit', path='<DVTFilePath:0x7ff03d34b0f0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/NEKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e16f2b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.NEKit', executablePath='<DVTFilePath:0x7ff03d311d30:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/NEKit.framework/NEKit'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 08:27:59 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff03dd02500; bundleID='me.zhuhaow.NEKit', path='<DVTFilePath:0x7ff03d34b0f0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/NEKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e16f2b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff03e74abd0; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.NEKit', executablePath='<DVTFilePath:0x7ff03d311d30:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/NEKit.framework/NEKit'>', hardenedRuntime='0'>'> to: /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~H1elwC
+2019-12-27 08:27:59 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '182C0B3ACEEE9699800D22447AA10B2DD27F8639' '--entitlements' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~H1elwC' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/NEKit.framework'
+2019-12-27 08:28:00 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/NEKit.framework: replacing existing signature
+2019-12-27 08:28:00 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/NEKit.framework: signed bundle with Mach-O universal (armv7 arm64) [me.zhuhaow.NEKit]
+2019-12-27 08:28:00 +0000  /usr/bin/codesign exited with 0
+2019-12-27 08:28:00 +0000  Entitlements for <IDEDistributionItem: 0x7ff03e562140; bundleID='dk.simonbs.Popover', path='<DVTFilePath:0x7ff03e13f980:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Popover.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e1c4050; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff03e7f8bf0; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='dk.simonbs.Popover', executablePath='<DVTFilePath:0x7ff03ddd99f0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Popover.framework/Popover'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 08:28:00 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff03e562140; bundleID='dk.simonbs.Popover', path='<DVTFilePath:0x7ff03e13f980:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Popover.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e1c4050; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff04ca6f1d0; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='dk.simonbs.Popover', executablePath='<DVTFilePath:0x7ff03ddd99f0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Popover.framework/Popover'>', hardenedRuntime='0'>'> to: /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~i1vOxx
+2019-12-27 08:28:00 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '182C0B3ACEEE9699800D22447AA10B2DD27F8639' '--entitlements' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~i1vOxx' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Popover.framework'
+2019-12-27 08:28:00 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Popover.framework: replacing existing signature
+2019-12-27 08:28:00 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Popover.framework: signed bundle with Mach-O universal (armv7 arm64) [dk.simonbs.Popover]
+2019-12-27 08:28:00 +0000  /usr/bin/codesign exited with 0
+2019-12-27 08:28:00 +0000  Entitlements for <IDEDistributionItem: 0x7ff03e3103c0; bundleID='me.zhuhaow.ios.Resolver-iOS', path='<DVTFilePath:0x7ff03e2ebcc0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Resolver.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e9226a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff03e7f8bf0; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.ios.Resolver-iOS', executablePath='<DVTFilePath:0x7ff03b9c0670:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Resolver.framework/Resolver'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 08:28:00 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff03e3103c0; bundleID='me.zhuhaow.ios.Resolver-iOS', path='<DVTFilePath:0x7ff03e2ebcc0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Resolver.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e9226a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff051ac69c0; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.ios.Resolver-iOS', executablePath='<DVTFilePath:0x7ff03b9c0670:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Resolver.framework/Resolver'>', hardenedRuntime='0'>'> to: /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~3Ukh9Z
+2019-12-27 08:28:00 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '182C0B3ACEEE9699800D22447AA10B2DD27F8639' '--entitlements' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~3Ukh9Z' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Resolver.framework'
+2019-12-27 08:28:00 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Resolver.framework: replacing existing signature
+2019-12-27 08:28:00 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Resolver.framework: signed bundle with Mach-O universal (armv7 arm64) [me.zhuhaow.ios.Resolver-iOS]
+2019-12-27 08:28:00 +0000  /usr/bin/codesign exited with 0
+2019-12-27 08:28:00 +0000  Entitlements for <IDEDistributionItem: 0x7ff03e43b220; bundleID='me.zhuhaow.Sodium', path='<DVTFilePath:0x7ff056bca0e0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Sodium.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff058c441d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff03e7f8bf0; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.Sodium', executablePath='<DVTFilePath:0x7ff03be8ad10:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Sodium.framework/Sodium'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 08:28:00 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff03e43b220; bundleID='me.zhuhaow.Sodium', path='<DVTFilePath:0x7ff056bca0e0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Sodium.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff058c441d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff04ca6f1d0; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.Sodium', executablePath='<DVTFilePath:0x7ff03be8ad10:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Sodium.framework/Sodium'>', hardenedRuntime='0'>'> to: /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~Sechpf
+2019-12-27 08:28:00 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '182C0B3ACEEE9699800D22447AA10B2DD27F8639' '--entitlements' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~Sechpf' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Sodium.framework'
+2019-12-27 08:28:00 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Sodium.framework: replacing existing signature
+2019-12-27 08:28:00 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Sodium.framework: signed bundle with Mach-O universal (armv7 arm64) [me.zhuhaow.Sodium]
+2019-12-27 08:28:00 +0000  /usr/bin/codesign exited with 0
+2019-12-27 08:28:00 +0000  Entitlements for <IDEDistributionItem: 0x7ff03e7a6ef0; bundleID='mango.SwiftTimer-iOS', path='<DVTFilePath:0x7ff04f05fc40:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/SwiftTimer.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e39f830; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='mango.SwiftTimer-iOS', executablePath='<DVTFilePath:0x7ff03e3744f0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/SwiftTimer.framework/SwiftTimer'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 08:28:00 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff03e7a6ef0; bundleID='mango.SwiftTimer-iOS', path='<DVTFilePath:0x7ff04f05fc40:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/SwiftTimer.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e39f830; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff03df434b0; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='mango.SwiftTimer-iOS', executablePath='<DVTFilePath:0x7ff03e3744f0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/SwiftTimer.framework/SwiftTimer'>', hardenedRuntime='0'>'> to: /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~8WHr0F
+2019-12-27 08:28:00 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '182C0B3ACEEE9699800D22447AA10B2DD27F8639' '--entitlements' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~8WHr0F' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/SwiftTimer.framework'
+2019-12-27 08:28:00 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/SwiftTimer.framework: replacing existing signature
+2019-12-27 08:28:00 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/SwiftTimer.framework: signed bundle with Mach-O universal (armv7 arm64) [mango.SwiftTimer-iOS]
+2019-12-27 08:28:00 +0000  /usr/bin/codesign exited with 0
+2019-12-27 08:28:00 +0000  Entitlements for <IDEDistributionItem: 0x7ff03e178dd0; bundleID='com.anotheren.TrafficPolice', path='<DVTFilePath:0x7ff04f0eeb50:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/TrafficPolice.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03a999d80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.anotheren.TrafficPolice', executablePath='<DVTFilePath:0x7ff058c7bbd0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/TrafficPolice.framework/TrafficPolice'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 08:28:00 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff03e178dd0; bundleID='com.anotheren.TrafficPolice', path='<DVTFilePath:0x7ff04f0eeb50:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/TrafficPolice.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03a999d80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff03df434b0; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='com.anotheren.TrafficPolice', executablePath='<DVTFilePath:0x7ff058c7bbd0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/TrafficPolice.framework/TrafficPolice'>', hardenedRuntime='0'>'> to: /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~IZP7PB
+2019-12-27 08:28:00 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '182C0B3ACEEE9699800D22447AA10B2DD27F8639' '--entitlements' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~IZP7PB' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/TrafficPolice.framework'
+2019-12-27 08:28:00 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/TrafficPolice.framework: replacing existing signature
+2019-12-27 08:28:00 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/TrafficPolice.framework: signed bundle with Mach-O universal (armv7 arm64) [com.anotheren.TrafficPolice]
+2019-12-27 08:28:00 +0000  /usr/bin/codesign exited with 0
+2019-12-27 08:28:00 +0000  Entitlements for <IDEDistributionItem: 0x7ff03e091060; bundleID='behrang.Yaml', path='<DVTFilePath:0x7ff03e519600:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Yaml.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03bb35f70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff03e74abd0; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='behrang.Yaml', executablePath='<DVTFilePath:0x7ff03d32daa0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Yaml.framework/Yaml'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 08:28:00 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff03e091060; bundleID='behrang.Yaml', path='<DVTFilePath:0x7ff03e519600:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Yaml.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03bb35f70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff051ac69c0; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='behrang.Yaml', executablePath='<DVTFilePath:0x7ff03d32daa0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/Yaml.framework/Yaml'>', hardenedRuntime='0'>'> to: /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~CvvA8Z
+2019-12-27 08:28:00 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '182C0B3ACEEE9699800D22447AA10B2DD27F8639' '--entitlements' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~CvvA8Z' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Yaml.framework'
+2019-12-27 08:28:00 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Yaml.framework: replacing existing signature
+2019-12-27 08:28:00 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/Yaml.framework: signed bundle with Mach-O universal (armv7 arm64) [behrang.Yaml]
+2019-12-27 08:28:00 +0000  /usr/bin/codesign exited with 0
+2019-12-27 08:28:00 +0000  Entitlements for <IDEDistributionItem: 0x7ff03b9f7250; bundleID='me.zhuhaow.ios.lwip', path='<DVTFilePath:0x7ff03d4ad020:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/lwip.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e71f800; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff04b1ee940; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.ios.lwip', executablePath='<DVTFilePath:0x7ff059a093d0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/lwip.framework/lwip'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 08:28:00 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff03b9f7250; bundleID='me.zhuhaow.ios.lwip', path='<DVTFilePath:0x7ff03d4ad020:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/lwip.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e71f800; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff059b322c0; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.ios.lwip', executablePath='<DVTFilePath:0x7ff059a093d0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/lwip.framework/lwip'>', hardenedRuntime='0'>'> to: /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~yVurn9
+2019-12-27 08:28:00 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '182C0B3ACEEE9699800D22447AA10B2DD27F8639' '--entitlements' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~yVurn9' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/lwip.framework'
+2019-12-27 08:28:00 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/lwip.framework: replacing existing signature
+2019-12-27 08:28:00 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/lwip.framework: signed bundle with Mach-O universal (armv7 arm64) [me.zhuhaow.ios.lwip]
+2019-12-27 08:28:00 +0000  /usr/bin/codesign exited with 0
+2019-12-27 08:28:00 +0000  Entitlements for <IDEDistributionItem: 0x7ff03e3e1f40; bundleID='me.zhuhaow.ios.tun2socks', path='<DVTFilePath:0x7ff03e112740:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/tun2socks.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03b921580; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.ios.tun2socks', executablePath='<DVTFilePath:0x7ff03afe87c0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/tun2socks.framework/tun2socks'>', hardenedRuntime='0'>'>: {
+}
+2019-12-27 08:28:00 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff03e3e1f40; bundleID='me.zhuhaow.ios.tun2socks', path='<DVTFilePath:0x7ff03e112740:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/tun2socks.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03b921580; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff059499250; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='(null)', teamID='898932UN9T', identifier='me.zhuhaow.ios.tun2socks', executablePath='<DVTFilePath:0x7ff03afe87c0:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/Frameworks/tun2socks.framework/tun2socks'>', hardenedRuntime='0'>'> to: /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~IyFfZC
+2019-12-27 08:28:00 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '182C0B3ACEEE9699800D22447AA10B2DD27F8639' '--entitlements' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~IyFfZC' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/tun2socks.framework'
+2019-12-27 08:28:00 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/tun2socks.framework: replacing existing signature
+2019-12-27 08:28:00 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/Frameworks/tun2socks.framework: signed bundle with Mach-O universal (armv7 arm64) [me.zhuhaow.ios.tun2socks]
+2019-12-27 08:28:00 +0000  /usr/bin/codesign exited with 0
+2019-12-27 08:28:00 +0000  Entitlements for <IDEDistributionItem: 0x7ff03e923850; bundleID='com.ssfree.SSWidget', path='<DVTFilePath:0x7ff03db47960:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/PlugIns/Ladder.appex'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff05a2037c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='{
+    "application-identifier" = "898932UN9T.com.ssfree.SSWidget";
+    "com.apple.developer.networking.networkextension" =     (
+        "app-proxy-provider",
+        "content-filter-provider",
+        "packet-tunnel-provider"
+    );
+    "com.apple.developer.networking.vpn.api" =     (
+        "allow-vpn"
+    );
+    "com.apple.developer.team-identifier" = 898932UN9T;
+    "com.apple.security.application-groups" =     (
+        "group.com.ssfree"
+    );
+    "get-task-allow" = 1;
+}', teamID='898932UN9T', identifier='com.ssfree.SSWidget', executablePath='<DVTFilePath:0x7ff03d88d020:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/PlugIns/Ladder.appex/Ladder'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "898932UN9T.com.ssfree.SSWidget";
+    "com.apple.developer.networking.networkextension" =     (
+        "app-proxy-provider",
+        "content-filter-provider",
+        "packet-tunnel-provider"
+    );
+    "com.apple.developer.networking.vpn.api" =     (
+        "allow-vpn"
+    );
+    "com.apple.developer.team-identifier" = 898932UN9T;
+    "com.apple.security.application-groups" =     (
+        "group.com.ssfree"
+    );
+    "get-task-allow" = 0;
+}
+2019-12-27 08:28:00 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff03e923850; bundleID='com.ssfree.SSWidget', path='<DVTFilePath:0x7ff03db47960:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/PlugIns/Ladder.appex'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff05a2037c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff04ca6f1d0; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='{
+    "application-identifier" = "898932UN9T.com.ssfree.SSWidget";
+    "com.apple.developer.networking.networkextension" =     (
+        "app-proxy-provider",
+        "content-filter-provider",
+        "packet-tunnel-provider"
+    );
+    "com.apple.developer.networking.vpn.api" =     (
+        "allow-vpn"
+    );
+    "com.apple.developer.team-identifier" = 898932UN9T;
+    "com.apple.security.application-groups" =     (
+        "group.com.ssfree"
+    );
+    "get-task-allow" = 1;
+}', teamID='898932UN9T', identifier='com.ssfree.SSWidget', executablePath='<DVTFilePath:0x7ff03d88d020:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/PlugIns/Ladder.appex/Ladder'>', hardenedRuntime='0'>'> to: /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~j9NW5q
+2019-12-27 08:28:00 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '182C0B3ACEEE9699800D22447AA10B2DD27F8639' '--entitlements' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~j9NW5q' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/PlugIns/Ladder.appex'
+2019-12-27 08:28:01 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/PlugIns/Ladder.appex: replacing existing signature
+2019-12-27 08:28:01 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/PlugIns/Ladder.appex: signed bundle with Mach-O thin (arm64) [com.ssfree.SSWidget]
+2019-12-27 08:28:01 +0000  /usr/bin/codesign exited with 0
+2019-12-27 08:28:01 +0000  Entitlements for <IDEDistributionItem: 0x7ff056b83050; bundleID='com.ssfree.PacketTunnel', path='<DVTFilePath:0x7ff03d54af40:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/PlugIns/PacketTunnel.appex'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e45b920; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff05d27ab70; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='{
+    "application-identifier" = "898932UN9T.com.ssfree.PacketTunnel";
+    "com.apple.developer.networking.networkextension" =     (
+        "app-proxy-provider",
+        "content-filter-provider",
+        "packet-tunnel-provider"
+    );
+    "com.apple.developer.networking.vpn.api" =     (
+        "allow-vpn"
+    );
+    "com.apple.developer.team-identifier" = 898932UN9T;
+    "com.apple.security.application-groups" =     (
+        "group.com.ssfree"
+    );
+    "get-task-allow" = 1;
+}', teamID='898932UN9T', identifier='com.ssfree.PacketTunnel', executablePath='<DVTFilePath:0x7ff03bfba170:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/PlugIns/PacketTunnel.appex/PacketTunnel'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "898932UN9T.com.ssfree.PacketTunnel";
+    "com.apple.developer.networking.networkextension" =     (
+        "app-proxy-provider",
+        "content-filter-provider",
+        "packet-tunnel-provider"
+    );
+    "com.apple.developer.networking.vpn.api" =     (
+        "allow-vpn"
+    );
+    "com.apple.developer.team-identifier" = 898932UN9T;
+    "com.apple.security.application-groups" =     (
+        "group.com.ssfree"
+    );
+    "get-task-allow" = 0;
+}
+2019-12-27 08:28:01 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff056b83050; bundleID='com.ssfree.PacketTunnel', path='<DVTFilePath:0x7ff03d54af40:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/PlugIns/PacketTunnel.appex'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e45b920; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff051ac69c0; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='{
+    "application-identifier" = "898932UN9T.com.ssfree.PacketTunnel";
+    "com.apple.developer.networking.networkextension" =     (
+        "app-proxy-provider",
+        "content-filter-provider",
+        "packet-tunnel-provider"
+    );
+    "com.apple.developer.networking.vpn.api" =     (
+        "allow-vpn"
+    );
+    "com.apple.developer.team-identifier" = 898932UN9T;
+    "com.apple.security.application-groups" =     (
+        "group.com.ssfree"
+    );
+    "get-task-allow" = 1;
+}', teamID='898932UN9T', identifier='com.ssfree.PacketTunnel', executablePath='<DVTFilePath:0x7ff03bfba170:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/PlugIns/PacketTunnel.appex/PacketTunnel'>', hardenedRuntime='0'>'> to: /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~NM26oR
+2019-12-27 08:28:01 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '182C0B3ACEEE9699800D22447AA10B2DD27F8639' '--entitlements' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~NM26oR' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/PlugIns/PacketTunnel.appex'
+2019-12-27 08:28:01 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/PlugIns/PacketTunnel.appex: replacing existing signature
+2019-12-27 08:28:01 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app/PlugIns/PacketTunnel.appex: signed bundle with Mach-O thin (arm64) [com.ssfree.PacketTunnel]
+2019-12-27 08:28:01 +0000  /usr/bin/codesign exited with 0
+2019-12-27 08:28:01 +0000  Entitlements for <IDEDistributionItem: 0x7ff054b919a0; bundleID='com.ssfree', path='<DVTFilePath:0x7ff058e7a180:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e90d950; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff03e74abd0; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='{
+    "application-identifier" = "898932UN9T.com.ssfree";
+    "com.apple.developer.networking.networkextension" =     (
+        "app-proxy-provider",
+        "content-filter-provider",
+        "packet-tunnel-provider"
+    );
+    "com.apple.developer.networking.vpn.api" =     (
+        "allow-vpn"
+    );
+    "com.apple.developer.team-identifier" = 898932UN9T;
+    "com.apple.security.application-groups" =     (
+        "group.com.ssfree"
+    );
+    "get-task-allow" = 1;
+}', teamID='898932UN9T', identifier='com.ssfree', executablePath='<DVTFilePath:0x7ff03db8ea70:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/SSFree'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "898932UN9T.com.ssfree";
+    "com.apple.developer.networking.networkextension" =     (
+        "app-proxy-provider",
+        "content-filter-provider",
+        "packet-tunnel-provider"
+    );
+    "com.apple.developer.networking.vpn.api" =     (
+        "allow-vpn"
+    );
+    "com.apple.developer.team-identifier" = 898932UN9T;
+    "com.apple.security.application-groups" =     (
+        "group.com.ssfree"
+    );
+    "get-task-allow" = 0;
+}
+2019-12-27 08:28:01 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff054b919a0; bundleID='com.ssfree', path='<DVTFilePath:0x7ff058e7a180:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ff03e90d950; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ff059499250; name='Apple Development: guangsheng wang (8W9QZ4J39Z)', hash='12B5BDA91FA81AF20BE8BA368D9FA3D97C5A7DAE', serialNumber='12A494FD4FDD8C60', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-10-13 01:16:55 +0000''>', entitlements='{
+    "application-identifier" = "898932UN9T.com.ssfree";
+    "com.apple.developer.networking.networkextension" =     (
+        "app-proxy-provider",
+        "content-filter-provider",
+        "packet-tunnel-provider"
+    );
+    "com.apple.developer.networking.vpn.api" =     (
+        "allow-vpn"
+    );
+    "com.apple.developer.team-identifier" = 898932UN9T;
+    "com.apple.security.application-groups" =     (
+        "group.com.ssfree"
+    );
+    "get-task-allow" = 1;
+}', teamID='898932UN9T', identifier='com.ssfree', executablePath='<DVTFilePath:0x7ff03db8ea70:'/Users/yzh/Library/Developer/Xcode/Archives/2019-12-27/SSFree 2019-12-27, 4.09 PM.xcarchive/Products/Applications/SSFree.app/SSFree'>', hardenedRuntime='0'>'> to: /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~KPPUMF
+2019-12-27 08:28:01 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '182C0B3ACEEE9699800D22447AA10B2DD27F8639' '--entitlements' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/entitlements~~~KPPUMF' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app'
+2019-12-27 08:28:01 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app: replacing existing signature
+2019-12-27 08:28:01 +0000  /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root/Payload/SSFree.app: signed app bundle with Mach-O thin (arm64) [com.ssfree]
+2019-12-27 08:28:01 +0000  /usr/bin/codesign exited with 0
+2019-12-27 08:28:01 +0000  Processing step: IDEDistributionZipODRItemStep
+2019-12-27 08:28:01 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 08:28:01 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 08:28:01 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 08:28:01 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 08:28:01 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 08:28:01 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 08:28:01 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 08:28:01 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 08:28:01 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 08:28:01 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 08:28:01 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 08:28:01 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 08:28:01 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 08:28:01 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 08:28:01 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 08:28:01 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 08:28:01 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 08:28:01 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-27 08:28:01 +0000  Processing step: IDEDistributionCreateIPAStep
+2019-12-27 08:28:01 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root' '/var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Packages/SSFree.ipa'
+2019-12-27 08:28:01 +0000  >>> Copying /var/folders/jh/p3mb36193tl1scf4q8nn1vhc0000gn/T/XcodeDistPipeline.~~~4IOhYM/Root 
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/_CodeSignature/CodeResources ... 
+2019-12-27 08:28:01 +0000  25642 bytes for ./Payload/SSFree.app/_CodeSignature/CodeResources
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/SSEncryptionTypeCell.nib ... 
+2019-12-27 08:28:01 +0000  3517 bytes for ./Payload/SSFree.app/SSEncryptionTypeCell.nib
+copying file ./Payload/SSFree.app/EncryptionType.plist ... 
+2019-12-27 08:28:01 +0000  144 bytes for ./Payload/SSFree.app/EncryptionType.plist
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/PlugIns/PacketTunnel.appex/_CodeSignature/CodeResources ... 
+2019-12-27 08:28:01 +0000  2040 bytes for ./Payload/SSFree.app/PlugIns/PacketTunnel.appex/_CodeSignature/CodeResources
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/PlugIns/PacketTunnel.appex/PacketTunnel ... 
+2019-12-27 08:28:01 +0000  115136 bytes for ./Payload/SSFree.app/PlugIns/PacketTunnel.appex/PacketTunnel
+copying file ./Payload/SSFree.app/PlugIns/PacketTunnel.appex/embedded.mobileprovision ... 
+2019-12-27 08:28:01 +0000  12963 bytes for ./Payload/SSFree.app/PlugIns/PacketTunnel.appex/embedded.mobileprovision
+copying file ./Payload/SSFree.app/PlugIns/PacketTunnel.appex/Info.plist ... 
+2019-12-27 08:28:01 +0000  950 bytes for ./Payload/SSFree.app/PlugIns/PacketTunnel.appex/Info.plist
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/PlugIns/Ladder.appex/_CodeSignature/CodeResources ... 
+2019-12-27 08:28:01 +0000  3382 bytes for ./Payload/SSFree.app/PlugIns/Ladder.appex/_CodeSignature/CodeResources
+copying file ./Payload/SSFree.app/PlugIns/Ladder.appex/Ladder ... 
+2019-12-27 08:28:01 +0000  112144 bytes for ./Payload/SSFree.app/PlugIns/Ladder.appex/Ladder
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/PlugIns/Ladder.appex/NEKitRule.conf ... 
+2754 bytes for ./Payload/SSFree.app/PlugIns/Ladder.appex/NEKitRule.conf
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/PlugIns/Ladder.appex/Base.lproj/MainInterface.storyboardc/UIViewController-M4Y-Lb-cyx.nib ... 
+2019-12-27 08:28:01 +0000  1013 bytes for ./Payload/SSFree.app/PlugIns/Ladder.appex/Base.lproj/MainInterface.storyboardc/UIViewController-M4Y-Lb-cyx.nib
+copying file ./Payload/SSFree.app/PlugIns/Ladder.appex/Base.lproj/MainInterface.storyboardc/M4Y-Lb-cyx-view-S3S-Oj-5AN.nib ... 
+2019-12-27 08:28:01 +0000  5016 bytes for ./Payload/SSFree.app/PlugIns/Ladder.appex/Base.lproj/MainInterface.storyboardc/M4Y-Lb-cyx-view-S3S-Oj-5AN.nib
+copying file ./Payload/SSFree.app/PlugIns/Ladder.appex/Base.lproj/MainInterface.storyboardc/Info.plist ... 
+2019-12-27 08:28:01 +0000  258 bytes for ./Payload/SSFree.app/PlugIns/Ladder.appex/Base.lproj/MainInterface.storyboardc/Info.plist
+copying file ./Payload/SSFree.app/PlugIns/Ladder.appex/Assets.car ... 
+2019-12-27 08:28:01 +0000  31167 bytes for ./Payload/SSFree.app/PlugIns/Ladder.appex/Assets.car
+copying file ./Payload/SSFree.app/PlugIns/Ladder.appex/embedded.mobileprovision ... 
+2019-12-27 08:28:01 +0000  12951 bytes for ./Payload/SSFree.app/PlugIns/Ladder.appex/embedded.mobileprovision
+copying file ./Payload/SSFree.app/PlugIns/Ladder.appex/Info.plist ... 
+2019-12-27 08:28:01 +0000  968 bytes for ./Payload/SSFree.app/PlugIns/Ladder.appex/Info.plist
+copying file ./Payload/SSFree.app/AppIcon60x60@2x.png ... 
+2019-12-27 08:28:01 +0000  4681 bytes for ./Payload/SSFree.app/AppIcon60x60@2x.png
+copying file ./Payload/SSFree.app/SSFree ... 
+2019-12-27 08:28:01 +0000  358688 bytes for ./Payload/SSFree.app/SSFree
+copying file ./Payload/SSFree.app/NEKitRule.conf ... 
+2019-12-27 08:28:01 +0000  2754 bytes for ./Payload/SSFree.app/NEKitRule.conf
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/Base.lproj/Main.storyboardc/UINavigationController-Kka-i7-HwP.nib ... 
+2019-12-27 08:28:01 +0000  2292 bytes for ./Payload/SSFree.app/Base.lproj/Main.storyboardc/UINavigationController-Kka-i7-HwP.nib
+copying file ./Payload/SSFree.app/Base.lproj/Main.storyboardc/mVS-mH-zkN-view-3e3-QF-X8S.nib ... 
+2019-12-27 08:28:01 +0000  3593 bytes for ./Payload/SSFree.app/Base.lproj/Main.storyboardc/mVS-mH-zkN-view-3e3-QF-X8S.nib
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/Base.lproj/Main.storyboardc/eo6-Dr-hAn-view-fzl-pd-c74.nib ... 
+3572 bytes for ./Payload/SSFree.app/Base.lproj/Main.storyboardc/eo6-Dr-hAn-view-fzl-pd-c74.nib
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/Base.lproj/Main.storyboardc/vNJ-Ju-6FR-view-iZ1-j9-K44.nib ... 
+2019-12-27 08:28:01 +0000  6151 bytes for ./Payload/SSFree.app/Base.lproj/Main.storyboardc/vNJ-Ju-6FR-view-iZ1-j9-K44.nib
+copying file ./Payload/SSFree.app/Base.lproj/Main.storyboardc/gcm-k1-gkO-view-f1c-xO-dzO.nib ... 
+2019-12-27 08:28:01 +0000  11156 bytes for ./Payload/SSFree.app/Base.lproj/Main.storyboardc/gcm-k1-gkO-view-f1c-xO-dzO.nib
+copying file ./Payload/SSFree.app/Base.lproj/Main.storyboardc/EncryptionType.nib ... 
+2019-12-27 08:28:01 +0000  1122 bytes for ./Payload/SSFree.app/Base.lproj/Main.storyboardc/EncryptionType.nib
+copying file ./Payload/SSFree.app/Base.lproj/Main.storyboardc/Scan.nib ... 
+2019-12-27 08:28:01 +0000  1102 bytes for ./Payload/SSFree.app/Base.lproj/Main.storyboardc/Scan.nib
+copying file ./Payload/SSFree.app/Base.lproj/Main.storyboardc/AddRoute.nib ... 
+2019-12-27 08:28:01 +0000  1399 bytes for ./Payload/SSFree.app/Base.lproj/Main.storyboardc/AddRoute.nib
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/Base.lproj/Main.storyboardc/5Ug-VH-uae-view-4H3-Wm-Hio.nib ... 
+2019-12-27 08:28:01 +0000  10426 bytes for ./Payload/SSFree.app/Base.lproj/Main.storyboardc/5Ug-VH-uae-view-4H3-Wm-Hio.nib
+copying file ./Payload/SSFree.app/Base.lproj/Main.storyboardc/pDK-Fq-qok-view-lw0-0G-C9v.nib ... 
+2019-12-27 08:28:01 +0000  2451 bytes for ./Payload/SSFree.app/Base.lproj/Main.storyboardc/pDK-Fq-qok-view-lw0-0G-C9v.nib
+copying file ./Payload/SSFree.app/Base.lproj/Main.storyboardc/EditRoute.nib ... 
+2019-12-27 08:28:01 +0000  1479 bytes for ./Payload/SSFree.app/Base.lproj/Main.storyboardc/EditRoute.nib
+copying file ./Payload/SSFree.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2019-12-27 08:28:01 +0000  413 bytes for ./Payload/SSFree.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/SSFree.app/Base.lproj/Main.storyboardc/RouteList.nib ... 
+2019-12-27 08:28:01 +0000  1106 bytes for ./Payload/SSFree.app/Base.lproj/Main.storyboardc/RouteList.nib
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1197 bytes for ./Payload/SSFree.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/SSFree.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-12-27 08:28:01 +0000  896 bytes for ./Payload/SSFree.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/SSFree.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/animation.json ... 
+2019-12-27 08:28:01 +0000  22076 bytes for ./Payload/SSFree.app/animation.json
+copying file ./Payload/SSFree.app/Assets.car ... 
+2019-12-27 08:28:01 +0000  205680 bytes for ./Payload/SSFree.app/Assets.car
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/AppIcon76x76@2x~ipad.png ... 
+5723 bytes for ./Payload/SSFree.app/AppIcon76x76@2x~ipad.png
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/scan.m4a ... 
+2019-12-27 08:28:01 +0000  10164 bytes for ./Payload/SSFree.app/scan.m4a
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/Frameworks/NEKit.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:28:01 +0000  1798 bytes for ./Payload/SSFree.app/Frameworks/NEKit.framework/_CodeSignature/CodeResources
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/Frameworks/NEKit.framework/NEKit ... 
+2019-12-27 08:28:01 +0000  4135984 bytes for ./Payload/SSFree.app/Frameworks/NEKit.framework/NEKit
+copying file ./Payload/SSFree.app/Frameworks/NEKit.framework/Info.plist ... 
+2019-12-27 08:28:01 +0000  1417 bytes for ./Payload/SSFree.app/Frameworks/NEKit.framework/Info.plist
+copying file ./Payload/SSFree.app/Frameworks/tun2socks.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/SSFree.app/Frameworks/tun2socks.framework/_CodeSignature/CodeResources
+copying file ./Payload/SSFree.app/Frameworks/tun2socks.framework/tun2socks ... 
+2019-12-27 08:28:01 +0000  299088 bytes for ./Payload/SSFree.app/Frameworks/tun2socks.framework/tun2socks
+copying file ./Payload/SSFree.app/Frameworks/tun2socks.framework/Info.plist ... 
+2019-12-27 08:28:01 +0000  740 bytes for ./Payload/SSFree.app/Frameworks/tun2socks.framework/Info.plist
+copying file ./Payload/SSFree.app/Frameworks/Resolver.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:28:01 +0000  1798 bytes for ./Payload/SSFree.app/Frameworks/Resolver.framework/_CodeSignature/CodeResources
+copying file ./Payload/SSFree.app/Frameworks/Resolver.framework/Info.plist ... 
+709 bytes for ./Payload/SSFree.app/Frameworks/Resolver.framework/Info.plist
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/Frameworks/Resolver.framework/Resolver ... 
+2019-12-27 08:28:01 +0000  297728 bytes for ./Payload/SSFree.app/Frameworks/Resolver.framework/Resolver
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/Frameworks/CocoaLumberjack.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:28:01 +0000  1798 bytes for ./Payload/SSFree.app/Frameworks/CocoaLumberjack.framework/_CodeSignature/CodeResources
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/Frameworks/CocoaLumberjack.framework/CocoaLumberjack ... 
+2019-12-27 08:28:01 +0000  651440 bytes for ./Payload/SSFree.app/Frameworks/CocoaLumberjack.framework/CocoaLumberjack
+copying file ./Payload/SSFree.app/Frameworks/CocoaLumberjack.framework/Info.plist ... 
+2019-12-27 08:28:01 +0000  755 bytes for ./Payload/SSFree.app/Frameworks/CocoaLumberjack.framework/Info.plist
+copying file ./Payload/SSFree.app/Frameworks/CocoaAsyncSocket.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:28:01 +0000  1798 bytes for ./Payload/SSFree.app/Frameworks/CocoaAsyncSocket.framework/_CodeSignature/CodeResources
+copying file ./Payload/SSFree.app/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket ... 
+2019-12-27 08:28:01 +0000  978576 bytes for ./Payload/SSFree.app/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket
+copying file ./Payload/SSFree.app/Frameworks/CocoaAsyncSocket.framework/Info.plist ... 
+2019-12-27 08:28:01 +0000  757 bytes for ./Payload/SSFree.app/Frameworks/CocoaAsyncSocket.framework/Info.plist
+copying file ./Payload/SSFree.app/Frameworks/Popover.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/SSFree.app/Frameworks/Popover.framework/_CodeSignature/CodeResources
+copying file ./Payload/SSFree.app/Frameworks/Popover.framework/Popover ... 
+2019-12-27 08:28:01 +0000  427712 bytes for ./Payload/SSFree.app/Frameworks/Popover.framework/Popover
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/Frameworks/Popover.framework/Info.plist ... 
+730 bytes for ./Payload/SSFree.app/Frameworks/Popover.framework/Info.plist
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/Frameworks/CommonCrypto.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:28:01 +0000  1798 bytes for ./Payload/SSFree.app/Frameworks/CommonCrypto.framework/_CodeSignature/CodeResources
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/Frameworks/CommonCrypto.framework/CommonCrypto ... 
+2019-12-27 08:28:01 +0000  134896 bytes for ./Payload/SSFree.app/Frameworks/CommonCrypto.framework/CommonCrypto
+copying file ./Payload/SSFree.app/Frameworks/CommonCrypto.framework/Info.plist ... 
+2019-12-27 08:28:01 +0000  896 bytes for ./Payload/SSFree.app/Frameworks/CommonCrypto.framework/Info.plist
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/Frameworks/CocoaLumberjackSwift.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:28:01 +0000  1798 bytes for ./Payload/SSFree.app/Frameworks/CocoaLumberjackSwift.framework/_CodeSignature/CodeResources
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/Frameworks/CocoaLumberjackSwift.framework/CocoaLumberjackSwift ... 
+2019-12-27 08:28:01 +0000  295024 bytes for ./Payload/SSFree.app/Frameworks/CocoaLumberjackSwift.framework/CocoaLumberjackSwift
+copying file ./Payload/SSFree.app/Frameworks/CocoaLumberjackSwift.framework/Info.plist ... 
+2019-12-27 08:28:01 +0000  765 bytes for ./Payload/SSFree.app/Frameworks/CocoaLumberjackSwift.framework/Info.plist
+copying file ./Payload/SSFree.app/Frameworks/lwip.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:28:01 +0000  1798 bytes for ./Payload/SSFree.app/Frameworks/lwip.framework/_CodeSignature/CodeResources
+copying file ./Payload/SSFree.app/Frameworks/lwip.framework/lwip ... 
+2019-12-27 08:28:01 +0000  290352 bytes for ./Payload/SSFree.app/Frameworks/lwip.framework/lwip
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/Frameworks/lwip.framework/Info.plist ... 
+730 bytes for ./Payload/SSFree.app/Frameworks/lwip.framework/Info.plist
+2019-12-27 08:28:01 +0000  copying file ./Payload/SSFree.app/Frameworks/TrafficPolice.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:28:01 +0000  1798 bytes for ./Payload/SSFree.app/Frameworks/TrafficPolice.framework/_CodeSignature/CodeResources
+copying file ./Payload/SSFree.app/Frameworks/TrafficPolice.framework/TrafficPolice ... 
+2019-12-27 08:28:01 +0000  329952 bytes for ./Payload/SSFree.app/Frameworks/TrafficPolice.framework/TrafficPolice
+copying file ./Payload/SSFree.app/Frameworks/TrafficPolice.framework/Info.plist ... 
+2019-12-27 08:28:01 +0000  714 bytes for ./Payload/SSFree.app/Frameworks/TrafficPolice.framework/Info.plist
+copying file ./Payload/SSFree.app/Frameworks/Sodium.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:28:01 +0000  1798 bytes for ./Payload/SSFree.app/Frameworks/Sodium.framework/_CodeSignature/CodeResources
+copying file ./Payload/SSFree.app/Frameworks/Sodium.framework/Sodium ... 
+2019-12-27 08:28:01 +0000  510464 bytes for ./Payload/SSFree.app/Frameworks/Sodium.framework/Sodium
+copying file ./Payload/SSFree.app/Frameworks/Sodium.framework/Info.plist ... 
+2019-12-27 08:28:01 +0000  728 bytes for ./Payload/SSFree.app/Frameworks/Sodium.framework/Info.plist
+copying file ./Payload/SSFree.app/Frameworks/Yaml.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:28:01 +0000  1798 bytes for ./Payload/SSFree.app/Frameworks/Yaml.framework/_CodeSignature/CodeResources
+copying file ./Payload/SSFree.app/Frameworks/Yaml.framework/Yaml ... 
+2019-12-27 08:28:01 +0000  716624 bytes for ./Payload/SSFree.app/Frameworks/Yaml.framework/Yaml
+copying file ./Payload/SSFree.app/Frameworks/Yaml.framework/Info.plist ... 
+2019-12-27 08:28:01 +0000  723 bytes for ./Payload/SSFree.app/Frameworks/Yaml.framework/Info.plist
+copying file ./Payload/SSFree.app/Frameworks/Lottie.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/SSFree.app/Frameworks/Lottie.framework/_CodeSignature/CodeResources
+copying file ./Payload/SSFree.app/Frameworks/Lottie.framework/Lottie ... 
+2019-12-27 08:28:01 +0000  4697536 bytes for ./Payload/SSFree.app/Frameworks/Lottie.framework/Lottie
+copying file ./Payload/SSFree.app/Frameworks/Lottie.framework/Info.plist ... 
+2019-12-27 08:28:01 +0000  701 bytes for ./Payload/SSFree.app/Frameworks/Lottie.framework/Info.plist
+copying file ./Payload/SSFree.app/Frameworks/SwiftTimer.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/SSFree.app/Frameworks/SwiftTimer.framework/_CodeSignature/CodeResources
+copying file ./Payload/SSFree.app/Frameworks/SwiftTimer.framework/SwiftTimer ... 
+2019-12-27 08:28:01 +0000  294160 bytes for ./Payload/SSFree.app/Frameworks/SwiftTimer.framework/SwiftTimer
+copying file ./Payload/SSFree.app/Frameworks/SwiftTimer.framework/Info.plist ... 
+2019-12-27 08:28:01 +0000  704 bytes for ./Payload/SSFree.app/Frameworks/SwiftTimer.framework/Info.plist
+copying file ./Payload/SSFree.app/Frameworks/MMDB.framework/_CodeSignature/CodeResources ... 
+2019-12-27 08:28:01 +0000  2106 bytes for ./Payload/SSFree.app/Frameworks/MMDB.framework/_CodeSignature/CodeResources
+copying file ./Payload/SSFree.app/Frameworks/MMDB.framework/GeoLite2-Country.mmdb ... 
+2019-12-27 08:28:02 +0000  4033189 bytes for ./Payload/SSFree.app/Frameworks/MMDB.framework/GeoLite2-Country.mmdb
+copying file ./Payload/SSFree.app/Frameworks/MMDB.framework/MMDB ... 
+2019-12-27 08:28:02 +0000  301600 bytes for ./Payload/SSFree.app/Frameworks/MMDB.framework/MMDB
+copying file ./Payload/SSFree.app/Frameworks/MMDB.framework/Info.plist ... 
+2019-12-27 08:28:02 +0000  728 bytes for ./Payload/SSFree.app/Frameworks/MMDB.framework/Info.plist
+copying file ./Payload/SSFree.app/SSRouteCell.nib ... 
+2019-12-27 08:28:02 +0000  3528 bytes for ./Payload/SSFree.app/SSRouteCell.nib
+copying file ./Payload/SSFree.app/embedded.mobileprovision ... 
+2019-12-27 08:28:02 +0000  12924 bytes for ./Payload/SSFree.app/embedded.mobileprovision
+copying file ./Payload/SSFree.app/Info.plist ... 
+2019-12-27 08:28:02 +0000  1677 bytes for ./Payload/SSFree.app/Info.plist
+copying file ./Payload/SSFree.app/PkgInfo ... 
+8 bytes for ./Payload/SSFree.app/PkgInfo
+2019-12-27 08:28:02 +0000  /usr/bin/ditto exited with 0
+2019-12-27 08:28:02 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2019-12-27 08:28:02 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-12-27 08:28:02 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2019-12-27 08:28:02 +0000  Processing step: IDEDistributionCreateManifestStep

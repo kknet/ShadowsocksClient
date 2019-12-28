@@ -618,6 +618,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 36A8DCA11D28D70D00B97D7E;
@@ -870,6 +871,7 @@
 					"$(PROJECT_DIR)/Sodium",
 					"$(PROJECT_DIR)/Sodium/libs",
 				);
+				MACH_O_TYPE = mh_dylib;
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhuhaow.Sodium;
 				PRODUCT_NAME = Sodium;
@@ -898,6 +900,7 @@
 					"$(PROJECT_DIR)/Sodium",
 					"$(PROJECT_DIR)/Sodium/libs",
 				);
+				MACH_O_TYPE = mh_dylib;
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhuhaow.Sodium;
 				PRODUCT_NAME = Sodium;

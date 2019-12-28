@@ -244,6 +244,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 211216331AE68AD2004E1CE6;
@@ -482,6 +483,7 @@
 				INFOPLIST_FILE = CommonCrypto/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.commoncrypto;
 				PRODUCT_NAME = CommonCrypto;
 				SDKROOT = iphoneos;
@@ -504,6 +506,7 @@
 				INFOPLIST_FILE = CommonCrypto/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.samsoffes.commoncrypto;
 				PRODUCT_NAME = CommonCrypto;
 				SDKROOT = iphoneos;
